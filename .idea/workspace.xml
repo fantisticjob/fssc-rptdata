@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ef6eeff-81ff-4fde-a1d3-eaa782367b5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fssc_rptdata.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/CBMXHISDELETEXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/CBMXHISDELETEXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/CBMXHISXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/CBMXHISXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/CBMXXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/CBMXXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/DDSYXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/DDSYXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/DDSYXxlJobHandlerKM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/DDSYXxlJobHandlerKM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/DDSYXxlJobHandlerQS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/DDSYXxlJobHandlerQS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/DDSYXxlJobHandlerRY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/DDSYXxlJobHandlerRY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/DJTHXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/DJTHXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/DJYENCXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/DJYENCXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/GDFOADBXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/GDFOADBXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/GDFXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/GDFXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/NCXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/NCXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/NCXxlJobHandlerZK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/NCXxlJobHandlerZK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/PTDQXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/PTDQXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/QUZJOB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/QUZJOB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/RPAAccountXXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/RPAAccountXXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/RPABankXXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/RPABankXXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/SKJ03XxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/SKJ03XxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/SKJXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/SKJXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/TJBBXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/TJBBXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/WLQLCQHXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/WLQLCQHXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/WLQLFZXQSXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/WLQLFZXQSXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/XYCQPULUXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/XYCQPULUXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/XYCQXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/XYCQXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/YHYEXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/YHYEXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/ZJZCXxlJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/ZJZCXxlJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/ZJZCXxlJobHandler_ACBA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETLJobHandaler/ZJZCXxlJobHandler_ACBA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/entity/NcThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/entity/NcThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/entity/NcThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/entity/NcThread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/entity/NcThread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/entity/NcThread3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/entity/OdsNcNcthread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/entity/OdsNcNcthread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/mapper/OdsNcNcthreadMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/mapper/OdsNcNcthreadMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/service/IOdsNcNcthreadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/service/IOdsNcNcthreadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/service/impl/OdsNcNcthreadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/Thread/service/impl/OdsNcNcthreadServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/common/mapper/CommonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/common/mapper/CommonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/config/MybatisPlusConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/config/MybatisPlusConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/config/XxlJobExecutorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/config/XxlJobExecutorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/constant/CommonConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/constant/CommonConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/DwZdsyRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/DwZdsyRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/DwZdsyRoleRelation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/DwZdsyRoleRelation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/RoleUserRelation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/RoleUserRelation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/RoleUserRights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/RoleUserRights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/DwZdsyRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/DwZdsyRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/DwZdsyRoleRelationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/DwZdsyRoleRelationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/RoleUserRelationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/RoleUserRelationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/RoleUserRightsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/RoleUserRightsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/IDwZdsyRoleRelationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/IDwZdsyRoleRelationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/IDwZdsyRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/IDwZdsyRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/IRoleUserRelationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/IRoleUserRelationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/IRoleUserRightsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/IRoleUserRightsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/DwZdsyRoleRelationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/DwZdsyRoleRelationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/DwZdsyRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/DwZdsyRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/RoleUserRelationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/RoleUserRelationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/RoleUserRightsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/RoleUserRightsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/NcTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/NcTaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/RprtTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/RprtTaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/DwBdBankDerictKk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/DwBdBankDerictKk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsCrCreditPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsCrCreditPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsCrCreditPayOverdue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsCrCreditPayOverdue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsCtCostDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsCtCostDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsCtCostDetailHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsCtCostDetailHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsDaDocumentAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsDaDocumentAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsHzMdmdata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsHzMdmdata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsHzNcdata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsHzNcdata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsHzTjbbnckm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsHzTjbbnckm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsHzYydata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsHzYydata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsPtGxusers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsPtGxusers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsPtPlatformareafkdw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsPtPlatformareafkdw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsPtZjareabankorg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsPtZjareabankorg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsSkjGetskj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsSkjGetskj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsSkjSkjinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsSkjSkjinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsWrWorkRoomDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsWrWorkRoomDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdGxptrepemployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdGxptrepemployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdNcglsubjectbalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdNcglsubjectbalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdNcviufolhgx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdNcviufolhgx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglqs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglqs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglqtssmx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglqtssmx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglyhsnssbbmx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglyhsnssbbmx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglzzsfb1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglzzsfb1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglzzsfb2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglzzsfb2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglzzsfb3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglzzsfb3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglzzsfb4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglzzsfb4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglzzszbmx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZdSwglzzszbmx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZjzcAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZjzcAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZjzcAccountBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZjzcAccountBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZjzcAccountTrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZjzcAccountTrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZjzcAccountsApplies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZjzcAccountsApplies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZjzcAccountsExtend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsZjzcAccountsExtend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/DwBdBankDerictKkMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/DwBdBankDerictKkMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsCrCreditPayMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsCrCreditPayMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsCrCreditPayOverdueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsCrCreditPayOverdueMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsCtCostDetailHistoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsCtCostDetailHistoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsCtCostDetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsCtCostDetailMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsDaDocumentAnalysisMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsDaDocumentAnalysisMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsMdmdataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsMdmdataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsNcdataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsNcdataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsPtGxusersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsPtGxusersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsPtPlatformareafkdwMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsPtPlatformareafkdwMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsPtZjareabankorgMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsPtZjareabankorgMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsSkjGetskjMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsSkjGetskjMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsSkjSkjinfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsSkjSkjinfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsTjbbnckmMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsTjbbnckmMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsWrWorkRoomDetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsWrWorkRoomDetailMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsYydataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsYydataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdGxptrepemployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdGxptrepemployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdNcglsubjectbalanceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdNcglsubjectbalanceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdNcviufolhgxMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdNcviufolhgxMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglqsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglqsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglqtssmxMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglqtssmxMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglyhsnssbbmxMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglyhsnssbbmxMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglzzsfb1Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglzzsfb1Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglzzsfb2Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglzzsfb2Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglzzsfb3Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglzzsfb3Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglzzsfb4Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglzzsfb4Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglzzszbmxMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZdSwglzzszbmxMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZjzcAccountsAppliesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZjzcAccountsAppliesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZjzcAccountsExtendMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZjzcAccountsExtendMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZjzcaccountsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZjzcaccountsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZjzcbankbalancesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZjzcbankbalancesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZjzcbanktransactionsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsZjzcbanktransactionsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/controller/OdsNcAuxiliaryBalanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/controller/OdsNcAuxiliaryBalanceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/AuxiliaryBalanceBackVoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/AuxiliaryBalanceBackVoArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/AuxiliaryBalanceDetails__AccassitemVoS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/AuxiliaryBalanceDetails__AccassitemVoS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/Auxiliarybalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/Auxiliarybalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/Auxiliarybalancedetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/Auxiliarybalancedetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/DocumentData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/DocumentData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/NcTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/NcTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcAuxiliaryBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcAuxiliaryBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcAuxiliaryBalancebd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcAuxiliaryBalancebd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcBalanceDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcBalanceDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcBalanceDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcBalanceDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcBalanceDetailsbd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcBalanceDetailsbd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcBalanceVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcBalanceVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcBalanceVoBd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/entity/OdsNcBalanceVoBd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/AuxiliarybalanceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/AuxiliarybalanceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/AuxiliarybalancedetailsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/AuxiliarybalancedetailsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/NcTaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/NcTaskMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcAuxiliaryBalanceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcAuxiliaryBalanceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcAuxiliaryBalancebdMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcAuxiliaryBalancebdMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcBalanceDetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcBalanceDetailMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcBalanceDetailsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcBalanceDetailsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcBalanceDetailsbdMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcBalanceDetailsbdMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcBalanceVoBdMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcBalanceVoBdMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcBalanceVoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/mapper/OdsNcBalanceVoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IAuxiliarybalanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IAuxiliarybalanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IAuxiliarybalancedetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IAuxiliarybalancedetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/INcTaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/INcTaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcAuxiliaryBalanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcAuxiliaryBalanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcAuxiliaryBalanceService_s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcAuxiliaryBalanceService_s.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcAuxiliaryBalancebdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcAuxiliaryBalancebdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcBalanceDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcBalanceDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcBalanceDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcBalanceDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcBalanceDetailsbdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcBalanceDetailsbdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcBalanceVoBdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcBalanceVoBdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcBalanceVoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/IOdsNcBalanceVoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/AuxiliarybalanceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/AuxiliarybalanceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/AuxiliarybalancedetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/AuxiliarybalancedetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/NcTaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/NcTaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcAuxiliaryBalanceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcAuxiliaryBalanceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcAuxiliaryBalanceServiceImpl_s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcAuxiliaryBalanceServiceImpl_s.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcAuxiliaryBalancebdServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcAuxiliaryBalancebdServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcBalanceDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcBalanceDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcBalanceDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcBalanceDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcBalanceDetailsbdServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcBalanceDetailsbdServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcBalanceVoBdServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcBalanceVoBdServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcBalanceVoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/nc/service/impl/OdsNcBalanceVoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IDwBdBankDerictKkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IDwBdBankDerictKkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsCrCreditPayOverdueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsCrCreditPayOverdueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsCrCreditPayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsCrCreditPayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsCrCreditPayService2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsCrCreditPayService2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsCtCostDetailHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsCtCostDetailHistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsCtCostDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsCtCostDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsDaDocumentAnalysisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsDaDocumentAnalysisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsMdmdataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsMdmdataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsNcdataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsNcdataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsPtGxusersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsPtGxusersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsPtPlatformareafkdwService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsPtPlatformareafkdwService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsPtZjareabankorgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsPtZjareabankorgService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsSkjGetskjService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsSkjGetskjService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsSkjGetskjService2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsSkjGetskjService2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsSkjSkjinfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsSkjSkjinfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsTjbbnckmService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsTjbbnckmService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsWrWorkRoomDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsWrWorkRoomDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsYydataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsYydataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdGxptrepemployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdGxptrepemployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdNcglsubjectbalanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdNcglsubjectbalanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdNcviufolhgxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdNcviufolhgxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglqsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglqsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglqtssmxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglqtssmxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglyhsnssbbmxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglyhsnssbbmxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglzzsfb1Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglzzsfb1Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglzzsfb2Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglzzsfb2Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglzzsfb3Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglzzsfb3Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglzzsfb4Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglzzsfb4Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglzzszbmxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZdSwglzzszbmxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZjzcAccountsAppliesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZjzcAccountsAppliesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZjzcAccountsExtendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZjzcAccountsExtendService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZjzcaccountsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZjzcaccountsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZjzcbankbalancesByDateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZjzcbankbalancesByDateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZjzcbankbalancesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZjzcbankbalancesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZjzcbanktransactionsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsZjzcbanktransactionsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/CommonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/DwBdBankDerictKkServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/DwBdBankDerictKkServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsCrCreditPayOverdueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsCrCreditPayOverdueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsCrCreditPayServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsCrCreditPayServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsCrCreditPayServiceImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsCrCreditPayServiceImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsCtCostDetailHistoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsCtCostDetailHistoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsCtCostDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsCtCostDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsDaDocumentAnalysisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsDaDocumentAnalysisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsMdmdataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsMdmdataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsNcdataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsNcdataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsPtGxusersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsPtGxusersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsPtPlatformareafkdwServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsPtPlatformareafkdwServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsPtZjareabankorgServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsPtZjareabankorgServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsSkjGetskjServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsSkjGetskjServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsSkjGetskjServiceImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsSkjGetskjServiceImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsSkjSkjinfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsSkjSkjinfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsTjbbnckmServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsTjbbnckmServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsWrWorkRoomDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsWrWorkRoomDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsYydataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsYydataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdGxptrepemployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdGxptrepemployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdNcglsubjectbalanceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdNcglsubjectbalanceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdNcviufolhgxServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdNcviufolhgxServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglqsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglqsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglqtssmxServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglqtssmxServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglyhsnssbbmxServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglyhsnssbbmxServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglzzsfb1ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglzzsfb1ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglzzsfb2ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglzzsfb2ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglzzsfb3ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglzzsfb3ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglzzsfb4ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglzzsfb4ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglzzszbmxServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZdSwglzzszbmxServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZjzcAccountsAppliesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZjzcAccountsAppliesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZjzcAccountsExtendServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZjzcAccountsExtendServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZjzcaccountsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZjzcaccountsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZjzcbankbalancesByDateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZjzcbankbalancesByDateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZjzcbankbalancesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZjzcbankbalancesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZjzcbanktransactionsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsZjzcbanktransactionsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/entity/BaBalanceAdjustTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/entity/BaBalanceAdjustTotal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/entity/RprtTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/entity/RprtTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/entity/RprtTaskYg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/entity/RprtTaskYg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/entity/StoredProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/entity/StoredProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/mapper/BaBalanceAdjustTotalMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/mapper/BaBalanceAdjustTotalMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/mapper/RprtTaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/mapper/RprtTaskMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/mapper/RprtTaskYgMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/mapper/RprtTaskYgMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/IBaBalanceAdjustTotalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/IBaBalanceAdjustTotalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/IRprtTaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/IRprtTaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/IRprtTaskYgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/IRprtTaskYgService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/impl/BaBalanceAdjustTotalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/impl/BaBalanceAdjustTotalServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/impl/BankMonthlyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/impl/BankMonthlyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/impl/RprtTaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/impl/RprtTaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/impl/RprtTaskYgServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/reconciliation/service/impl/RprtTaskYgServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/CommandLineUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/CommandLineUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/DelMonthlyClosingUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/DelMonthlyClosingUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/GetProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/GetProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/HttpClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/HttpClientUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/HttpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/KettleUtilRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/KettleUtilRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/NCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/NCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/PushOAMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/PushOAMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/RemoteCallUtil2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/RemoteCallUtil2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/RemoteCallUtil3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/RemoteCallUtil3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lh/fr/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lh/fr/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties.back" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties.back" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties.test" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/etl_plugins/kettle-json-plugin/version.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/etl_plugins/kettle-json-plugin/version.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/J_BA_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/J_BA_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/J_BA_ANALYSE_DYAS.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/J_BA_ANALYSE_DYAS.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/J_BA_UPDATA_ZD.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/J_BA_UPDATA_ZD.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_BALANCE_ADJUST_HISTORY.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_BALANCE_ADJUST_HISTORY.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_BALANCE_ADJUST_HISTORY_DAYS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_BALANCE_ADJUST_HISTORY_DAYS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_BALANCE_ADJUST_TOTAL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_BALANCE_ADJUST_TOTAL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_BALANCE_ADJUST_TOTAL_DAYS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_BALANCE_ADJUST_TOTAL_DAYS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_RECONCILIATION_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_RECONCILIATION_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_RECONCILIATION_DETAIL_DAYS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_RECONCILIATION_DETAIL_DAYS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_UPDATA_ZD.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_UPDATA_ZD.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_UPDATE_INITIALIZE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_BA_UPDATE_INITIALIZE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_DW_BA_BANKDEPOSIT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_DW_BA_BANKDEPOSIT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_DW_BA_BANKDEPOSIT_DAYS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_DW_BA_BANKDEPOSIT_DAYS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_TMP_BA_BANKDEPOSIT_HZ.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_TMP_BA_BANKDEPOSIT_HZ.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_TMP_BA_BANKDEPOSIT_HZ_DAYS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_TMP_BA_BANKDEPOSIT_HZ_DAYS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_TMP_BA_RECONCILIATION_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_TMP_BA_RECONCILIATION_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BA/T_TMP_BA_RECONCILIATION_DETAIL_DAYS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BA/T_TMP_BA_RECONCILIATION_DETAIL_DAYS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BD/J_BD_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BD/J_BD_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/BD/T_DW_BD_BANK_DERICT_KK_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/BD/T_DW_BD_BANK_DERICT_KK_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CA/J_CA_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CA/J_CA_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CA/T_DW_CA_LIST_OF_MONTH.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CA/T_DW_CA_LIST_OF_MONTH.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CA/T_DW_CA_LIST_OF_MONTH_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CA/T_DW_CA_LIST_OF_MONTH_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CP/J_CP_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CP/J_CP_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CP/J_CP_GENERATE_QUARTERLY_DATA.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CP/J_CP_GENERATE_QUARTERLY_DATA.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CP/T_DW_CP_CLEAR_UP_BLANCE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CP/T_DW_CP_CLEAR_UP_BLANCE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CP/T_DW_CP_CLEAR_UP_DETAIL_MONTH.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CP/T_DW_CP_CLEAR_UP_DETAIL_MONTH.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CP/T_DW_CP_CLEAR_UP_TOTAL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CP/T_DW_CP_CLEAR_UP_TOTAL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CP/T_GENERATE_QUARTERLY_DATA.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CP/T_GENERATE_QUARTERLY_DATA.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CP/T_UPDATE_PAYMENT_LOAD_CODE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CP/T_UPDATE_PAYMENT_LOAD_CODE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CR/J_CR_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CR/J_CR_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CR/T_DW_CR_CREDIT_PAY_OVERDUE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CR/T_DW_CR_CREDIT_PAY_OVERDUE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CR/T_DW_CR_GXUSERS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CR/T_DW_CR_GXUSERS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CT/BAK/J_CT_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CT/BAK/J_CT_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CT/BAK/T_DW_CT_CONTRACT_INFO.bak.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CT/BAK/T_DW_CT_CONTRACT_INFO.bak.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CT/BAK/T_DW_CT_INSTALLMENT_PAYMENT_bak.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CT/BAK/T_DW_CT_INSTALLMENT_PAYMENT_bak.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CT/J_CT_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CT/J_CT_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CT/J_DW_CT_CONTRACT_INFO.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CT/J_DW_CT_CONTRACT_INFO.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CT/J_DW_CT_INSTALLMENT_PAYMENT.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CT/J_DW_CT_INSTALLMENT_PAYMENT.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CT/T_DW_CT_CONTRACT_INFO.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CT/T_DW_CT_CONTRACT_INFO.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CT/T_DW_CT_CONTRACT_INFO_UPDATE_LAIYUAN.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CT/T_DW_CT_CONTRACT_INFO_UPDATE_LAIYUAN.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CT/T_DW_CT_COST_TOTAL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CT/T_DW_CT_COST_TOTAL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CT/T_DW_CT_INSTALLMENT_PAYMENT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CT/T_DW_CT_INSTALLMENT_PAYMENT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CT/T_DW_CT_INSTALLMENT_PAYMENT_UPDATE_LAIYUAN.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CT/T_DW_CT_INSTALLMENT_PAYMENT_UPDATE_LAIYUAN.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/CT/T_DW_CT_PROJECT_PAYMENT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/CT/T_DW_CT_PROJECT_PAYMENT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/DA/J_DA_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/DA/J_DA_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/DA/T_DW_DA_DOCUMENT_ANALYSIS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/DA/T_DW_DA_DOCUMENT_ANALYSIS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/DA/T_DW_DA_DOCUMENT_ANALYSIS_9_10.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/DA/T_DW_DA_DOCUMENT_ANALYSIS_9_10.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/DIMENSION/J_DW_DIMENSION.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/DIMENSION/J_DW_DIMENSION.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/DIMENSION/T_BA_ACCOUNTS_ACCOUNT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/DIMENSION/T_BA_ACCOUNTS_ACCOUNT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/DIMENSION/T_BA_AREA_ACCOUNTS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/DIMENSION/T_BA_AREA_ACCOUNTS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/DIMENSION/T_BA_PLAT_AREA.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/DIMENSION/T_BA_PLAT_AREA.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/DIMENSION/T_BA_PLAT_AREA_FKDW.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/DIMENSION/T_BA_PLAT_AREA_FKDW.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/DIMENSION/T_ODS_ACCOUNTING_ORG_AREA.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/DIMENSION/T_ODS_ACCOUNTING_ORG_AREA.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/J_EXPORT.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/J_EXPORT.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/J_LXH_EXPORT_EXCEL.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/J_LXH_EXPORT_EXCEL.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LH_EXPORT_PLAT_AREA.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LH_EXPORT_PLAT_AREA.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_3.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_3.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_4.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_4.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_AA.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_AA.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_ALL_COMPANY_CREDIT_PAYMENT_DATA.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_ALL_COMPANY_CREDIT_PAYMENT_DATA.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_BB.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_BB.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_CC.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_CC.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_CSJPT_CHUSHENBUHUI_FROM_JANUARY_TO_JUNE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_CSJPT_CHUSHENBUHUI_FROM_JANUARY_TO_JUNE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_CSJPT_CHUSHENPAIDAN_FROM_JANUARY_TO_JUNE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_CSJPT_CHUSHENPAIDAN_FROM_JANUARY_TO_JUNE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_DD.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_DD.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_FF.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_FF.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_GXPT_FROM_201907_TO_PRESENT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_GXPT_FROM_201907_TO_PRESENT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_GXPT_FROM_SETUP_TO_201906.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_GXPT_FROM_SETUP_TO_201906.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_HNPT_FROM_20200101_TO_20200731.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_HNPT_FROM_20200101_TO_20200731.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_REMINDERS_DETAILS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_REMINDERS_DETAILS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_XFKSX_BEFORE_20200731.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_XFKSX_BEFORE_20200731.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_XIAN_FROM_JANUARY_TO_JUNE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/LXH_XIAN_FROM_JANUARY_TO_JUNE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/T_ODS_ACCOUNTING_ORG_AREA.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/EXPORT_EXCEL/T_ODS_ACCOUNTING_ORG_AREA.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/PS/J_PS_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/PS/J_PS_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/PS/T_DW_PS_POS_TRADE - 2020-11-20.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/PS/T_DW_PS_POS_TRADE - 2020-11-20.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/PS/T_DW_PS_POS_TRADE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/PS/T_DW_PS_POS_TRADE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/PS/T_DW_PS_PROJECT_POS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/PS/T_DW_PS_PROJECT_POS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/TASK/GET_UUID.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/TASK/GET_UUID.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/TASK/T_DW_ETL_TASK.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/TASK/T_DW_ETL_TASK.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/TASK/T_DW_ETL_TASK.ktr.bak" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/TASK/T_DW_ETL_TASK.ktr.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/WR/J_DW_WR_OVERDUE_ANALYSIS_LOCK.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/WR/J_DW_WR_OVERDUE_ANALYSIS_LOCK.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/WR/J_DW_WR_WORK_ROOM_SUMMARY_LOCK.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/WR/J_DW_WR_WORK_ROOM_SUMMARY_LOCK.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/WR/J_WR_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/WR/J_WR_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZDSY-预生产/J_ZDSY_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZDSY-预生产/J_ZDSY_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZDSY-预生产/T_DW_ZDSY_3MONTHLY_TAX_REPORT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZDSY-预生产/T_DW_ZDSY_3MONTHLY_TAX_REPORT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZDSY-预生产/T_DW_ZDSY_MONTHLY_TAX_REPORT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZDSY-预生产/T_DW_ZDSY_MONTHLY_TAX_REPORT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZDSY-预生产/T_DW_ZDSY_MONTHLY_TAX_REPORT2.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZDSY-预生产/T_DW_ZDSY_MONTHLY_TAX_REPORT2.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZDSY-预生产/T_ZDSY_INDEX.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZDSY-预生产/T_ZDSY_INDEX.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZDSY/J_ZDSY_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZDSY/J_ZDSY_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZDSY/T_DW_ZDSY_3MONTHLY_TAX_REPORT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZDSY/T_DW_ZDSY_3MONTHLY_TAX_REPORT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZDSY/T_DW_ZDSY_MONTHLY_TAX_REPORT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZDSY/T_DW_ZDSY_MONTHLY_TAX_REPORT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZDSY/T_DW_ZDSY_MONTHLY_TAX_REPORT2.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZDSY/T_DW_ZDSY_MONTHLY_TAX_REPORT2.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZDSY/T_ZDSY_INDEX.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZDSY/T_ZDSY_INDEX.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZJZC-预生产/J_ZJZC_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZJZC-预生产/J_ZJZC_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZJZC-预生产/T_DW_FSI_ACCOUNT_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZJZC-预生产/T_DW_FSI_ACCOUNT_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZJZC-预生产/T_DW_FSI_ACCOUNT_DETAIL111.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZJZC-预生产/T_DW_FSI_ACCOUNT_DETAIL111.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZJZC/J_ZJZC_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZJZC/J_ZJZC_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/ZJZC/T_DW_FSI_ACCOUNT_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/ZJZC/T_DW_FSI_ACCOUNT_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/test/GET_BATCHNUM.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/test/GET_BATCHNUM.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/test/J_BATCHNUM.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/test/J_BATCHNUM.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/test/USING_BATCHNUM.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/test/USING_BATCHNUM.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job/test/USING_BATCHNUM2.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job/test/USING_BATCHNUM2.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/J_BA_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/J_BA_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/J_BA_ANALYSE_DYAS.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/J_BA_ANALYSE_DYAS.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/J_BA_UPDATA_ZD.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/J_BA_UPDATA_ZD.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_BALANCE_ADJUST_HISTORY.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_BALANCE_ADJUST_HISTORY.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_BALANCE_ADJUST_HISTORY_DAYS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_BALANCE_ADJUST_HISTORY_DAYS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_BALANCE_ADJUST_TOTAL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_BALANCE_ADJUST_TOTAL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_BALANCE_ADJUST_TOTAL_DAYS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_BALANCE_ADJUST_TOTAL_DAYS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_RECONCILIATION_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_RECONCILIATION_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_RECONCILIATION_DETAIL_DAYS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_RECONCILIATION_DETAIL_DAYS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_UPDATA_ZD.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_BA_UPDATA_ZD.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_DW_BA_BANKDEPOSIT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_DW_BA_BANKDEPOSIT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_DW_BA_BANKDEPOSIT_DAYS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_DW_BA_BANKDEPOSIT_DAYS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_TMP_BA_BANKDEPOSIT_HZ.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_TMP_BA_BANKDEPOSIT_HZ.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_TMP_BA_BANKDEPOSIT_HZ_DAYS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_TMP_BA_BANKDEPOSIT_HZ_DAYS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_TMP_BA_RECONCILIATION_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_TMP_BA_RECONCILIATION_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_TMP_BA_RECONCILIATION_DETAIL_DAYS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/BA/T_TMP_BA_RECONCILIATION_DETAIL_DAYS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/CA/J_CA_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/CA/J_CA_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/CA/T_DW_CA_LIST_OF_MONTH.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/CA/T_DW_CA_LIST_OF_MONTH.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/CA/T_DW_CA_LIST_OF_MONTH_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/CA/T_DW_CA_LIST_OF_MONTH_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/CR/J_CR_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/CR/J_CR_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/CR/T_DW_CR_CREDIT_PAY_OVERDUE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/CR/T_DW_CR_CREDIT_PAY_OVERDUE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/CR/T_DW_CR_GXUSERS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/CR/T_DW_CR_GXUSERS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/CT/J_CT_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/CT/J_CT_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/CT/T_DW_CT_CONTRACT_INFO.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/CT/T_DW_CT_CONTRACT_INFO.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/CT/T_DW_CT_COST_TOTAL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/CT/T_DW_CT_COST_TOTAL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/CT/T_DW_CT_INSTALLMENT_PAYMENT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/CT/T_DW_CT_INSTALLMENT_PAYMENT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/CT/T_DW_CT_PROJECT_PAYMENT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/CT/T_DW_CT_PROJECT_PAYMENT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/DA/J_DA_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/DA/J_DA_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/DA/T_DW_DA_DOCUMENT_ANALYSIS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/DA/T_DW_DA_DOCUMENT_ANALYSIS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/DIMENSION/J_DW_DIMENSION.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/DIMENSION/J_DW_DIMENSION.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/DIMENSION/T_BA_ACCOUNTS_ACCOUNT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/DIMENSION/T_BA_ACCOUNTS_ACCOUNT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/DIMENSION/T_BA_AREA_ACCOUNTS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/DIMENSION/T_BA_AREA_ACCOUNTS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/DIMENSION/T_BA_PLAT_AREA.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/DIMENSION/T_BA_PLAT_AREA.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/J_LXH_EXPORT_EXCEL.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/J_LXH_EXPORT_EXCEL.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_AA.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_AA.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_ALL_COMPANY_CREDIT_PAYMENT_DATA.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_ALL_COMPANY_CREDIT_PAYMENT_DATA.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_CSJPT_CHUSHENBUHUI_FROM_JANUARY_TO_JUNE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_CSJPT_CHUSHENBUHUI_FROM_JANUARY_TO_JUNE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_CSJPT_CHUSHENPAIDAN_FROM_JANUARY_TO_JUNE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_CSJPT_CHUSHENPAIDAN_FROM_JANUARY_TO_JUNE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_GXPT_FROM_201907_TO_PRESENT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_GXPT_FROM_201907_TO_PRESENT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_GXPT_FROM_SETUP_TO_201906.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_GXPT_FROM_SETUP_TO_201906.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_HNPT_FROM_20200101_TO_20200731.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_HNPT_FROM_20200101_TO_20200731.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_REMINDERS_DETAILS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_REMINDERS_DETAILS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_XFKSX_BEFORE_20200731.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_XFKSX_BEFORE_20200731.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_XIAN_FROM_JANUARY_TO_JUNE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/EXPORT_EXCEL/LXH_XIAN_FROM_JANUARY_TO_JUNE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/TASK/GET_UUID.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/TASK/GET_UUID.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/TASK/T_DW_ETL_TASK.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/TASK/T_DW_ETL_TASK.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/TASK/T_DW_ETL_TASK.ktr.bak" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/TASK/T_DW_ETL_TASK.ktr.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/WR/J_DW_WR_OVERDUE_ANALYSIS_LOCK.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/WR/J_DW_WR_OVERDUE_ANALYSIS_LOCK.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/WR/J_DW_WR_WORK_ROOM_SUMMARY_LOCK.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/WR/J_DW_WR_WORK_ROOM_SUMMARY_LOCK.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/WR/J_WR_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/WR/J_WR_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/WR/T_DW_WR_OVERDUE_ANALYSIS_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/WR/T_DW_WR_OVERDUE_ANALYSIS_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/WR/T_DW_WR_OVERDUE_ANALYSIS_LOCK.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/WR/T_DW_WR_OVERDUE_ANALYSIS_LOCK.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/WR/T_DW_WR_WORK_ROOM_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/WR/T_DW_WR_WORK_ROOM_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/WR/T_DW_WR_WORK_ROOM_SUMMARY.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/WR/T_DW_WR_WORK_ROOM_SUMMARY.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test/WR/T_DW_WR_WORK_ROOM_SUMMARY_LOCK.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test/WR/T_DW_WR_WORK_ROOM_SUMMARY_LOCK.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/BA/J_BA_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/BA/J_BA_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/BA/J_BA_UPDATA_ZD.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/BA/J_BA_UPDATA_ZD.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_BA_BALANCE_ADJUST_HISTORY.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_BA_BALANCE_ADJUST_HISTORY.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_BA_BALANCE_ADJUST_TOTAL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_BA_BALANCE_ADJUST_TOTAL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_BA_RECONCILIATION_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_BA_RECONCILIATION_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_BA_UPDATA_ZD.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_BA_UPDATA_ZD.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_DW_BA_BANKDEPOSIT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_DW_BA_BANKDEPOSIT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_TMP_BA_BANKDEPOSIT_HZ.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_TMP_BA_BANKDEPOSIT_HZ.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_TMP_BA_RECONCILIATION_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/BA/T_TMP_BA_RECONCILIATION_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CA/J_CA_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CA/J_CA_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_ADVANCERECEIPTCONSOLE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_ADVANCERECEIPTCONSOLE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_ASSET.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_ASSET.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_FACTORING_DETAILS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_FACTORING_DETAILS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_INPUTTAX_DETAILS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_INPUTTAX_DETAILS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_LIST_OF_MONTH.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_LIST_OF_MONTH.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_LIST_OF_MONTH_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_LIST_OF_MONTH_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_MERCHANTS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_MERCHANTS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_PUBLICCOLL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CA/T_DW_CA_PUBLICCOLL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CR/J_CR_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CR/J_CR_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CR/T_DW_CR_CREDIT_PAY_OVERDUE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CR/T_DW_CR_CREDIT_PAY_OVERDUE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CR/T_DW_CR_GXUSERS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CR/T_DW_CR_GXUSERS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CT/J_CT_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CT/J_CT_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CT/T_DW_CT_CONTRACT_INFO.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CT/T_DW_CT_CONTRACT_INFO.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CT/T_DW_CT_COST_TOTAL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CT/T_DW_CT_COST_TOTAL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CT/T_DW_CT_INSTALLMENT_PAYMENT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CT/T_DW_CT_INSTALLMENT_PAYMENT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/CT/T_DW_CT_PROJECT_PAYMENT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/CT/T_DW_CT_PROJECT_PAYMENT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/DA/J_DA_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/DA/J_DA_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/DA/T_DW_DA_DOCUMENT_ANALYSIS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/DA/T_DW_DA_DOCUMENT_ANALYSIS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/DIMENSION/J_DW_DIMENSION.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/DIMENSION/J_DW_DIMENSION.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/DIMENSION/T_BA_ACCOUNTS_ACCOUNT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/DIMENSION/T_BA_ACCOUNTS_ACCOUNT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/DIMENSION/T_BA_AREA_ACCOUNTS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/DIMENSION/T_BA_AREA_ACCOUNTS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/DIMENSION/T_BA_PLAT_AREA.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/DIMENSION/T_BA_PLAT_AREA.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/J_LXH_EXPORT_EXCEL.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/J_LXH_EXPORT_EXCEL.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_AA.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_AA.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_ALL_COMPANY_CREDIT_PAYMENT_DATA.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_ALL_COMPANY_CREDIT_PAYMENT_DATA.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_CSJPT_CHUSHENBUHUI_FROM_JANUARY_TO_JUNE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_CSJPT_CHUSHENBUHUI_FROM_JANUARY_TO_JUNE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_CSJPT_CHUSHENPAIDAN_FROM_JANUARY_TO_JUNE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_CSJPT_CHUSHENPAIDAN_FROM_JANUARY_TO_JUNE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_GXPT_FROM_201907_TO_PRESENT.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_GXPT_FROM_201907_TO_PRESENT.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_GXPT_FROM_SETUP_TO_201906.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_GXPT_FROM_SETUP_TO_201906.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_HNPT_FROM_20200101_TO_20200731.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_HNPT_FROM_20200101_TO_20200731.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_REMINDERS_DETAILS.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_REMINDERS_DETAILS.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_XFKSX_BEFORE_20200731.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_XFKSX_BEFORE_20200731.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_XIAN_FROM_JANUARY_TO_JUNE.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/EXPORT_EXCEL/LXH_XIAN_FROM_JANUARY_TO_JUNE.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/TASK/GET_UUID.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/TASK/GET_UUID.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/TASK/T_DW_ETL_TASK.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/TASK/T_DW_ETL_TASK.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/WR/J_DW_WR_OVERDUE_ANALYSIS_LOCK.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/WR/J_DW_WR_OVERDUE_ANALYSIS_LOCK.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/WR/J_DW_WR_WORK_ROOM_SUMMARY_LOCK.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/WR/J_DW_WR_WORK_ROOM_SUMMARY_LOCK.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/WR/J_WR_ANALYSE.kjb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/WR/J_WR_ANALYSE.kjb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/WR/T_DW_WR_OVERDUE_ANALYSIS_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/WR/T_DW_WR_OVERDUE_ANALYSIS_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/WR/T_DW_WR_OVERDUE_ANALYSIS_LOCK.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/WR/T_DW_WR_OVERDUE_ANALYSIS_LOCK.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/WR/T_DW_WR_WORK_ROOM_DETAIL.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/WR/T_DW_WR_WORK_ROOM_DETAIL.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/WR/T_DW_WR_WORK_ROOM_SUMMARY.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/WR/T_DW_WR_WORK_ROOM_SUMMARY.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/job_test02/WR/T_DW_WR_WORK_ROOM_SUMMARY_LOCK.ktr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/job_test02/WR/T_DW_WR_WORK_ROOM_SUMMARY_LOCK.ktr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/profile/dev/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/profile/dev/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/profile/prod/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/profile/prod/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/profile/sit/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/profile/sit/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ETLJobHandaler/CBMXHISXxlJobHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ETLJobHandaler/CBMXHISXxlJobHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/longfor/fsscreportdb/oa/service/impl/RoleUserRightsServiceImplTest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ETLJobHandaler/WLQLPushMessageJobHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="361" column="32" lean-forward="true" selection-start-line="361" selection-start-column="32" selection-end-line="361" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ETLJobHandaler/LhChatGroupJobHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="42" column="51" lean-forward="true" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>usercode</find>
+      <find>build</find>
+      <find>longfor</find>
+      <find>sendlongfor</find>
+      <find>sendMsg</find>
+      <find>sendl</find>
+      <find>byFlag</find>
+      <find>w_zhaobo14</find>
+      <find>sendLongForMsg</find>
+      <find>memba</find>
+      <find>members.add(&quot;w_zhaobo14&quot;);</find>
+      <find>members</find>
+      <find>arrayList</find>
+      <find>list</find>
+      <find>getAreaListB</find>
+      <find>liuyingshuang</find>
+      <find>4dbb66cc-9dcd-4a94-9ffe-1a9f363f722a</find>
+      <find>prod</find>
+      <find>https://api-pre.longhu.net/longchat-open-api-npre</find>
+      <find>getAreaL</find>
+      <find>/sendMsg</find>
+      <find>alertGroupForSecondTime</find>
+      <find>pushMessage</find>
+      <find>Two</find>
+      <find>sendLong</find>
+      <find>getAreaList</find>
+      <find>sendLongForm</find>
+      <find>GetUserAreaExistFlag</find>
+      <find>longforChatUrl</find>
+      <find>OpenApiClient</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\workspace\fssc-rptdata\src\main\java\com\longfor\fsscreportdb\ods</dir>
+      <dir>D:\workspace\fssc-rptdata</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/longxinMessage/entity/DinDimValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/longxinMessage/service/IDinDimValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/longxinMessage/mapper/DinDimValueMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/longxinMessage/service/impl/DinDimValueServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/longxinMessage/service/IDwCpClearUpDetailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/longxinMessage/mapper/DwCpClearUpDetailMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/longxinMessage/service/impl/DwCpClearUpDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/longxinMessage/entity/DwCpClearUpDetail.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/profile/dev/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/longxinMessage/getSitTokenTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/longxinMessage/RSAUtilsNes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/IDwCpMonthQuarterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/DwCpMonthQuarterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ETLJobHandaler/WLQLPushMessageHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ETLJobHandaler/myTestHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/myTestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/myTestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/SendLongxinMsgController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/DinDimValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/DwCpMonthQuarter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/DinDimServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/DinDimMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/IDinDimService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsHrDirctServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsHrDirctMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsHrDirctService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ETLJobHandaler/LhChatGroupJobHandlerBak.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ETLJobHandaler/LhChatGroupJobHandlerDebugBak.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/IDwCpMonthQuarterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/DwCpMonthQuarterImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/DwCpMonthQuarterMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/DwCpMonthQuarterMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/DinDim.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/DinDimMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/OdsHrDirctMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ETLJobHandaler/NCXxlJobHandler.java" />
+        <option value="$USER_HOME$/Desktop/rptdata_quyu/ETLJobHandaler/WLQLPushMessageJobHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lh/fr/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/sendMsgControllerOrigin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/SendMsgControllerOrigin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/SendMsgControllerBak.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/SendMsgController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ETLJobHandaler/LhChatGroupJobHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ETLJobHandaler/WLQLPushMessageJobHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files (x86)\apache-maven-3.5.0\conf\repository" />
+        <option name="mavenHome" value="D:/Program Files (x86)/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\Program Files (x86)\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="prod" />
+        <option value="dev" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="35" />
+    <option name="width" value="1750" />
+    <option name="height" value="985" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fssc_rptdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fssc-rptdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fssc_rptdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fssc-rptdata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fssc_rptdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fssc-rptdata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fssc_rptdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fssc-rptdata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fssc_rptdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fssc-rptdata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fsscreportdb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fssc_rptdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fssc-rptdata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ETLJobHandaler" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1629099577154" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../job_test" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\fssc-rptdata\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="RSAUtilsNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.longfor.fsscreportdb.longxinMessage.RSAUtilsNew" />
+      <module name="fssc_rptdata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longfor.fsscreportdb.longxinMessage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fssc_rptdata" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lh.fr.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RSAUtilsNew" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ef6eeff-81ff-4fde-a1d3-eaa782367b5b" name="Default Changelist" comment="" />
+      <created>1622187535490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622187535490</updated>
+      <workItem from="1622187536867" duration="297000" />
+      <workItem from="1622187862766" duration="639000" />
+      <workItem from="1622426253964" duration="2224000" />
+      <workItem from="1622510899369" duration="596000" />
+      <workItem from="1622518131664" duration="612000" />
+      <workItem from="1623312280494" duration="12211000" />
+      <workItem from="1623333819350" duration="5638000" />
+      <workItem from="1623381914536" duration="2268000" />
+      <workItem from="1625130410828" duration="58000" />
+      <workItem from="1625130487097" duration="473000" />
+      <workItem from="1625132184738" duration="103000" />
+      <workItem from="1625132903882" duration="27000" />
+      <workItem from="1625272432920" duration="632000" />
+      <workItem from="1627437673816" duration="16000" />
+      <workItem from="1627869982181" duration="5105000" />
+      <workItem from="1627884958507" duration="13552000" />
+      <workItem from="1627954614218" duration="2084000" />
+      <workItem from="1627957275868" duration="2162000" />
+      <workItem from="1627959531232" duration="653000" />
+      <workItem from="1627961001888" duration="6000" />
+      <workItem from="1628059513304" duration="3736000" />
+      <workItem from="1628068485829" duration="122000" />
+      <workItem from="1628128579730" duration="2211000" />
+      <workItem from="1628134262754" duration="5104000" />
+      <workItem from="1628148180382" duration="1487000" />
+      <workItem from="1628149762074" duration="4324000" />
+      <workItem from="1628213251276" duration="9707000" />
+      <workItem from="1628229874234" duration="6604000" />
+      <workItem from="1628472766542" duration="4882000" />
+      <workItem from="1628477791979" duration="1883000" />
+      <workItem from="1628480665232" duration="1150000" />
+      <workItem from="1628489786742" duration="8256000" />
+      <workItem from="1628502714965" duration="98000" />
+      <workItem from="1628558399276" duration="1697000" />
+      <workItem from="1628651061618" duration="1955000" />
+      <workItem from="1628731386911" duration="127000" />
+      <workItem from="1628731743874" duration="4058000" />
+      <workItem from="1628736103568" duration="900000" />
+      <workItem from="1628739122232" duration="2640000" />
+      <workItem from="1628747850999" duration="96000" />
+      <workItem from="1628748247569" duration="288000" />
+      <workItem from="1628748554046" duration="101000" />
+      <workItem from="1628748674102" duration="13791000" />
+      <workItem from="1628775639928" duration="429000" />
+      <workItem from="1628817778227" duration="19862000" />
+      <workItem from="1629079273222" duration="3041000" />
+      <workItem from="1629094376175" duration="3882000" />
+      <workItem from="1629165362148" duration="6000" />
+      <workItem from="1629171582020" duration="29000" />
+      <workItem from="1629181282765" duration="1339000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="153161000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28150135" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.42351276" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41501418" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3696884" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.123324394" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3150134" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.42351276" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41501418" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20254958" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" visible="true" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.123324394" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ETLJobHandaler/WLQLPushMessageJobHandler.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java</url>
+          <line>196</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java</url>
+          <line>205</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java</url>
+          <line>509</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java</url>
+          <line>271</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java</url>
+          <line>634</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java</url>
+          <line>819</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java</url>
+          <line>219</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java</url>
+          <line>260</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java</url>
+          <line>261</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java</url>
+          <line>258</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java</url>
+          <line>1069</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java</url>
+          <line>782</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/DinDimValueServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/DinDimValueMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace_copy/fssc-rptdata/src/main/java/ETLJobHandaler/WLQLPushMessageHandler.java" />
+    <entry file="file://$USER_HOME$/Desktop/WLQLPushMessageJobHandler.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ETLJobHandaler/LhChatGroupJobHandlerDebugBak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365">
+          <caret line="177" column="40" lean-forward="true" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
+          <folding>
+            <element signature="e#6088#6096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OdsHrDirctMapperBak.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/DwCpClearUpDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/IDwCpClearUpDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/DwZdsyRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/DwZdsyRoleRelationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/RoleUserRelationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/DwCpMonthQuarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/impl/DwCpMonthQuarterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/DwCpMonthQuarterMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/service/IDwCpMonthQuarterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/MsgData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsDepartmetClear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/DwCpClearGroupInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DinDimValueMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/DinDimValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DwCpMonthQuarterMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ETLJobHandaler/LhChatGroupJobHandlerBak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="180" column="8" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/mapper/DinDimMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/rptdata_quyu/ETLJobHandaler/LhChatGroupJobHandler.java" />
+    <entry file="file://$USER_HOME$/Desktop/rptdata_quyu/ETLJobHandaler/NCXxlJobHandler.java" />
+    <entry file="file://$USER_HOME$/Desktop/rptdata_quyu/ETLJobHandaler/WLQLCQHXxlJobHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OdsHrDirctMapper_original.xml" />
+    <entry file="file://$USER_HOME$/Desktop/rptdata_quyu/ETLJobHandaler/WLQLPushMessageJobHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/oa/entity/DinDim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+            <element signature="e#1586#1587#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/utils/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="348" column="5" lean-forward="true" selection-start-line="348" selection-start-column="5" selection-end-line="348" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/DwCpClearGroupInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace_copy/fssc-rptdata/src/main/java/lh/fr/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="34" selection-start-line="34" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lh/fr/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="101" column="12" lean-forward="true" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DinDimMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/SendMsgControllerBak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="387" column="13" lean-forward="true" selection-start-line="387" selection-start-column="13" selection-end-line="387" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace_copy/fssc-rptdata/src/main/java/com/longfor/fsscreportdb/ods/controller/SendMsgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="1239" column="10" lean-forward="true" selection-start-line="1239" selection-start-column="10" selection-end-line="1239" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IDwCpClearGroupInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/entity/OdsHrDirct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OdsHrDirctMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="219" column="23" lean-forward="true" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
+          <folding>
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/IOdsHrDirctService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/mapper/OdsHrDirctMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/SendMsgControllerOrigin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="171" column="46" lean-forward="true" selection-end-line="1348" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/SendMsgControllerBak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2356">
+          <caret line="179" column="40" selection-start-line="179" selection-start-column="40" selection-end-line="179" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/service/impl/OdsHrDirctServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/SendMsgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="1282" column="5" selection-start-line="1282" selection-start-column="5" selection-end-line="1282" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/apache-maven-3.5.0/conf/repository/com/longfor/longchat/openapi/longchat-openapi-client/1.0.1/longchat-openapi-client-1.0.1.jar!/com/longfor/longchat/openapi/client/OpenApiClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longfor/fsscreportdb/ods/controller/MyTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ETLJobHandaler/WLQLPushMessageJobHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="361" column="32" lean-forward="true" selection-start-line="361" selection-start-column="32" selection-end-line="361" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ETLJobHandaler/NCXxlJobHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="197" column="44" lean-forward="true" selection-start-line="197" selection-start-column="44" selection-end-line="197" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ETLJobHandaler/LhChatGroupJobHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="42" column="51" lean-forward="true" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

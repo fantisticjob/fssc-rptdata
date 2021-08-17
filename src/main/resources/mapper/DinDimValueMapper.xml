@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.longfor.fsscreportdb.oa.mapper.DinDimValueMapper">
+    <select id="getAll" parameterType="String" resultType="com.longfor.fsscreportdb.oa.entity.DinDimValue">
+       select * from Din_dim_value where dim_id = #{dim_id}
+    </select>
+</mapper>

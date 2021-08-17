@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transformation>
+  <info>
+    <name>LXH_GXPT_FROM_201907_TO_PRESENT</name>
+    <description />
+    <extended_description />
+    <trans_version />
+    <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
+    <directory>/</directory>
+    <parameters>
+    </parameters>
+    <log>
+      <trans-log-table>
+        <connection />
+        <schema />
+        <table />
+        <size_limit_lines />
+        <interval />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STATUS</id>
+          <enabled>Y</enabled>
+          <name>STATUS</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+          <subject />
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>STARTDATE</id>
+          <enabled>Y</enabled>
+          <name>STARTDATE</name>
+        </field>
+        <field>
+          <id>ENDDATE</id>
+          <enabled>Y</enabled>
+          <name>ENDDATE</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>DEPDATE</id>
+          <enabled>Y</enabled>
+          <name>DEPDATE</name>
+        </field>
+        <field>
+          <id>REPLAYDATE</id>
+          <enabled>Y</enabled>
+          <name>REPLAYDATE</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>Y</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+        <field>
+          <id>EXECUTING_SERVER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_SERVER</name>
+        </field>
+        <field>
+          <id>EXECUTING_USER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_USER</name>
+        </field>
+        <field>
+          <id>CLIENT</id>
+          <enabled>N</enabled>
+          <name>CLIENT</name>
+        </field>
+      </trans-log-table>
+      <perf-log-table>
+        <connection />
+        <schema />
+        <table />
+        <interval />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>SEQ_NR</id>
+          <enabled>Y</enabled>
+          <name>SEQ_NR</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>INPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>INPUT_BUFFER_ROWS</name>
+        </field>
+        <field>
+          <id>OUTPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>OUTPUT_BUFFER_ROWS</name>
+        </field>
+      </perf-log-table>
+      <channel-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>LOGGING_OBJECT_TYPE</id>
+          <enabled>Y</enabled>
+          <name>LOGGING_OBJECT_TYPE</name>
+        </field>
+        <field>
+          <id>OBJECT_NAME</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_NAME</name>
+        </field>
+        <field>
+          <id>OBJECT_COPY</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_COPY</name>
+        </field>
+        <field>
+          <id>REPOSITORY_DIRECTORY</id>
+          <enabled>Y</enabled>
+          <name>REPOSITORY_DIRECTORY</name>
+        </field>
+        <field>
+          <id>FILENAME</id>
+          <enabled>Y</enabled>
+          <name>FILENAME</name>
+        </field>
+        <field>
+          <id>OBJECT_ID</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_ID</name>
+        </field>
+        <field>
+          <id>OBJECT_REVISION</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_REVISION</name>
+        </field>
+        <field>
+          <id>PARENT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>PARENT_CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>ROOT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>ROOT_CHANNEL_ID</name>
+        </field>
+      </channel-log-table>
+      <step-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>N</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+      </step-log-table>
+      <metrics-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_DATE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_CODE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_CODE</name>
+        </field>
+        <field>
+          <id>METRICS_DESCRIPTION</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DESCRIPTION</name>
+        </field>
+        <field>
+          <id>METRICS_SUBJECT</id>
+          <enabled>Y</enabled>
+          <name>METRICS_SUBJECT</name>
+        </field>
+        <field>
+          <id>METRICS_TYPE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_TYPE</name>
+        </field>
+        <field>
+          <id>METRICS_VALUE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_VALUE</name>
+        </field>
+      </metrics-log-table>
+    </log>
+    <maxdate>
+      <connection />
+      <table />
+      <field />
+      <offset>0.0</offset>
+      <maxdiff>0.0</maxdiff>
+    </maxdate>
+    <size_rowset>10000</size_rowset>
+    <sleep_time_empty>50</sleep_time_empty>
+    <sleep_time_full>50</sleep_time_full>
+    <unique_connections>N</unique_connections>
+    <feedback_shown>Y</feedback_shown>
+    <feedback_size>50000</feedback_size>
+    <using_thread_priorities>Y</using_thread_priorities>
+    <shared_objects_file />
+    <capture_step_performance>N</capture_step_performance>
+    <step_performance_capturing_delay>1000</step_performance_capturing_delay>
+    <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
+    <dependencies>
+    </dependencies>
+    <partitionschemas>
+    </partitionschemas>
+    <slaveservers>
+    </slaveservers>
+    <clusterschemas>
+    </clusterschemas>
+    <created_user>-</created_user>
+    <created_date>2020/08/19 17:34:11.483</created_date>
+    <modified_user>-</modified_user>
+    <modified_date>2020/08/19 17:34:11.483</modified_date>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+    <is_key_private>N</is_key_private>
+  </info>
+  <notepads>
+  </notepads>
+  <connection>
+    <name>oracle_excel</name>
+    <server>${destination.server_1}</server>
+    <type>ORACLE</type>
+    <access>Native</access>
+    <database>${destination.database_1}</database>
+    <port>1521</port>
+    <username>${destination.username_1}</username>
+    <password>${destination.password_1}</password>
+    <servername />
+    <data_tablespace />
+    <index_tablespace />
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>1521</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <order>
+    <hop>
+      <from>共享平台2019年7月至今的单据(带扫描时间和签收时间)</from>
+      <to>Microsoft Excel 输出</to>
+      <enabled>Y</enabled>
+    </hop>
+  </order>
+  <step>
+    <name>Microsoft Excel 输出</name>
+    <type>TypeExitExcelWriterStep</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <header>Y</header>
+    <footer>N</footer>
+    <makeSheetActive>Y</makeSheetActive>
+    <rowWritingMethod>overwrite</rowWritingMethod>
+    <startingCell>A1</startingCell>
+    <appendOmitHeader>N</appendOmitHeader>
+    <appendOffset>0</appendOffset>
+    <appendEmpty>0</appendEmpty>
+    <rowWritingMethod>overwrite</rowWritingMethod>
+    <forceFormulaRecalculation>N</forceFormulaRecalculation>
+    <leaveExistingStylesUnchanged>N</leaveExistingStylesUnchanged>
+    <appendLines>N</appendLines>
+    <add_to_result_filenames>N</add_to_result_filenames>
+    <file>
+      <name>/home/lhadmin/ETL/EXCEL/共享平台2019年7月至今的单据(带扫描时间和签收时间)</name>
+      <extention>xlsx</extention>
+      <do_not_open_newfile_init>Y</do_not_open_newfile_init>
+      <split>N</split>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format />
+      <sheetname>Sheet1</sheetname>
+      <autosizecolums>N</autosizecolums>
+      <stream_data>Y</stream_data>
+      <protect_sheet>N</protect_sheet>
+      <password>Encrypted </password>
+      <protected_by />
+      <splitevery>0</splitevery>
+      <if_file_exists>new</if_file_exists>
+      <if_sheet_exists>new</if_sheet_exists>
+    </file>
+    <template>
+      <enabled>N</enabled>
+      <sheet_enabled>N</sheet_enabled>
+      <filename>template.xls</filename>
+      <sheetname />
+      <hidden>N</hidden>
+    </template>
+    <fields>
+      <field>
+        <name>F_PACK_SN</name>
+        <type>String</type>
+        <format />
+        <title>F_PACK_SN</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_BILL_ID</name>
+        <type>String</type>
+        <format />
+        <title>F_BILL_ID</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_LYXTBH</name>
+        <type>String</type>
+        <format />
+        <title>F_LYXTBH</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_LYXT</name>
+        <type>String</type>
+        <format />
+        <title>F_LYXT</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_POST_DRCT</name>
+        <type>String</type>
+        <format />
+        <title>F_POST_DRCT</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_GXQS</name>
+        <type>String</type>
+        <format />
+        <title>F_GXQS</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_CLR</name>
+        <type>String</type>
+        <format />
+        <title>F_CLR</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_CLRNAME</name>
+        <type>String</type>
+        <format />
+        <title>F_CLRNAME</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_QSZT</name>
+        <type>String</type>
+        <format />
+        <title>F_QSZT</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_CLTZ</name>
+        <type>String</type>
+        <format />
+        <title>F_CLTZ</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_CLSJ</name>
+        <type>String</type>
+        <format />
+        <title>F_CLSJ</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_STA_PACK</name>
+        <type>String</type>
+        <format />
+        <title>F_STA_PACK</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_PACK_USER</name>
+        <type>String</type>
+        <format />
+        <title>F_PACK_USER</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_PACK_TIME</name>
+        <type>String</type>
+        <format />
+        <title>F_PACK_TIME</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_STA_POST</name>
+        <type>String</type>
+        <format />
+        <title>F_STA_POST</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_POST_USER</name>
+        <type>String</type>
+        <format />
+        <title>F_POST_USER</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_POST_TIME</name>
+        <type>String</type>
+        <format />
+        <title>F_POST_TIME</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_STA_RCV</name>
+        <type>String</type>
+        <format />
+        <title>F_STA_RCV</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_RCV_USER</name>
+        <type>String</type>
+        <format />
+        <title>F_RCV_USER</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_RCV_TIME</name>
+        <type>String</type>
+        <format />
+        <title>F_RCV_TIME</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_POST_BILL</name>
+        <type>String</type>
+        <format />
+        <title>F_POST_BILL</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_WDMC</name>
+        <type>String</type>
+        <format />
+        <title>F_WDMC</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_EXPENSE_TYPEMC</name>
+        <type>String</type>
+        <format />
+        <title>F_EXPENSE_TYPEMC</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_SFYZP</name>
+        <type>String</type>
+        <format />
+        <title>F_SFYZP</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_SJJG</name>
+        <type>String</type>
+        <format />
+        <title>F_SJJG</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_TJSJ</name>
+        <type>String</type>
+        <format />
+        <title>F_TJSJ</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_TJR</name>
+        <type>String</type>
+        <format />
+        <title>F_TJR</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_AREA</name>
+        <type>String</type>
+        <format />
+        <title>F_AREA</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_AREAMC</name>
+        <type>String</type>
+        <format />
+        <title>F_AREAMC</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_UP_TIME</name>
+        <type>String</type>
+        <format />
+        <title>F_UP_TIME</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_SMR</name>
+        <type>String</type>
+        <format />
+        <title>F_SMR</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+      <field>
+        <name>F_SMRMC</name>
+        <type>String</type>
+        <format />
+        <title>F_SMRMC</title>
+        <titleStyleCell />
+        <styleCell />
+        <commentField />
+        <commentAuthorField />
+        <formula>N</formula>
+        <hyperlinkField />
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>640</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>共享平台2019年7月至今的单据(带扫描时间和签收时间)</name>
+    <type>TableInput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <connection>oracle_excel</connection>
+    <sql>SELECT MX.F_PACK_SN,
+       MX.F_BILL_ID,
+       MX.F_LYXT AS F_LYXTBH,
+       YW.F_NAME F_LYXT,
+       DECODE(BX.F_POST_DRCT, '1', '打包', '2', '退包') F_POST_DRCT,
+       DECODE(MX.F_GXQS, '0', '支持岗签收', '1', '共享单据签收', '2', '退件签收') F_GXQS,
+       MX.F_CLR,
+       (select US.USR_CAPTION
+          from ssf_users us
+         where us.usr_usrid(+) = mx.f_Clr) as F_CLRNAME,
+       DECODE(MX.F_STA_RCV, '0', '待签收', '1', '已签收', '2', '共享已签收','4','退件已签收') F_QSZT,
+       DECODE(MX.F_CLTZ, '0', '待处理', '1', '已处理', '2', '退回') F_CLTZ,
+       to_char(to_date(MX.F_CLSJ, 'yyyymmddhh24miss'),
+               'yyyy-mm-dd hh24:mi:ss') AS F_CLSJ,
+       DECODE(BX.F_STA_PACK, '0', '待打包', '1', '已打包') F_STA_PACK,
+       (select US.USR_CAPTION
+          from ssf_users us
+         where us.usr_usrid = BX.F_PACK_USER) as F_PACK_USER,
+       to_char(to_date(BX.F_PACK_TIME, 'yyyymmddhh24miss'),
+               'yyyy-mm-dd hh24:mi:ss') AS F_PACK_TIME,
+       DECODE(BX.F_STA_POST, '0', '未邮递', '1', '已邮递') F_STA_POST,
+       (select US.USR_CAPTION
+          from ssf_users us
+         where us.usr_usrid = BX.F_POST_USER) as F_POST_USER,
+       to_char(to_date(BX.F_POST_TIME, 'yyyymmddhh24miss'),
+               'yyyy-mm-dd hh24:mi:ss') AS F_POST_TIME,
+       DECODE(BX.F_STA_RCV, '0', '未收包', '1', '已收包') F_STA_RCV,
+       (select US.USR_CAPTION
+          from ssf_users us
+         where us.usr_usrid = BX.F_RCV_USER) as F_RCV_USER,
+       to_char(to_date(BX.F_RCV_TIME, 'yyyymmddhh24miss'),
+               'yyyy-mm-dd hh24:mi:ss') AS F_RCV_TIME,
+       --GS.F_MC F_POST_COM,
+       BX.F_POST_BILL,
+       BX.F_WDMC,
+       decode(sc.f_expense_type， '1' ， '对公' ， '2', '对私') F_EXPENSE_TYPEMC,
+       decode(sc.f_sfyzp,'True','是','False','否') f_sfyzp,
+       (CASE MX.F_STA_RCV
+         WHEN '2' THEN to_char(round((to_date(mx.f_clsj,'yy-mm-dd hh24:mi:ss')-to_date(bx.F_POST_TIME,'yy-mm-dd hh24:mi:ss'))*24,2),9990.99)
+         else '0'
+         end) f_sjjg,
+       MX.F_TJSJ,
+       (select US.USR_CAPTION
+          from ssf_users us
+         where us.usr_usrid = MX.F_TJR) AS F_TJR,
+         sc.f_area f_area,
+       DECODE( sc.f_area,'0001','西南共享平台','0002','华南共享平台','0003','长三角共享平台','0004','环渤海共享平台') F_AREAMC,
+             t5.F_uP_TIME,
+       t5.F_SMR,
+       t5.F_SMRMC
+  FROM SC_POST_DTL MX, SC_POST_PACK BX,sc_task sc,HX_YWXT YW,(SELECT F_BILL_ID, TO_CHAR(TO_DATE(SUBSTR(MAX(F_uP_TIME),0, 14),
+                       'yyyymmddhh24miss'),'yyyymmddhh24miss') F_uP_TIME , (SELECT US.USR_DESCRIPTION
+          FROM SSF_USERS US
+         WHERE US.USR_USRID =   ATT.F_USER_ID) F_SMR,F_USER_NAME F_SMRMC FROM SC_ATTACH ATT GROUP BY F_BILL_ID,F_USER_ID,F_USER_NAME ) T5 
+WHERE MX.F_PACK_SN = BX.F_PACK_SN(+) and mx.f_bill_id=sc.f_bill_id(+) AND MX.F_LYXT=YW.F_CODE(+)   AND  SC.F_BILL_ID=T5.F_BILL_ID(+) AND MX.F_CLSJ>='20200101000000000' AND MX.F_CLSJ&lt;'20200701000000000' AND EXISTS(SELECT * FROM HX_YWXT WHERE F_SFGJ='0' AND F_CODE=MX.F_LYXT)
+union all
+
+SELECT MX.F_PACK_SN,
+       MX.F_BILL_ID,
+       MX.F_LYXT AS F_LYXTBH,
+       YW.F_NAME F_LYXT,
+       '' F_POST_DRCT,
+       DECODE(MX.F_GXQS, '0', '支持岗签收', '1', '共享单据签收', '2', '退件签收') F_GXQS,
+       MX.F_CLR,
+       (select US.USR_CAPTION
+          from ssf_users us
+         where us.usr_usrid = mx.f_Clr) as F_CLRNAME,
+       DECODE(MX.F_STA_RCV, '0', '待签收', '1', '已签收', '2', '共享已签收') F_QSZT,
+       DECODE(MX.F_CLTZ, '0', '待处理', '1', '已处理', '2', '退回') F_CLTZ,
+       to_char(to_date(MX.F_CLSJ, 'yyyymmddhh24miss'),
+               'yyyy-mm-dd hh24:mi:ss') AS F_CLSJ,
+       '' F_STA_PACK,
+       '' as F_PACK_USER,
+       '' AS F_PACK_TIME,
+       '' F_STA_POST,
+       '' as F_POST_USER,
+       '' AS F_POST_TIME,
+       '' F_STA_RCV,
+       '' F_RCV_USER,
+       '' F_RCV_TIME,
+       --'' F_POST_COM,
+       '' F_POST_BILL,
+       '' F_WDMC,
+       decode(sc.f_expense_type， '1' ， '对公' ， '2', '对私') F_EXPENSE_TYPEMC,
+       decode(sc.f_sfyzp,'True','是','False','否') F_SFYZP,
+       '0'  F_SJJG,
+       MX.F_TJSJ,
+       (select US.USR_CAPTION
+          from ssf_users us
+         where us.usr_usrid = MX.F_TJR) AS F_TJR,
+         sc.f_area f_area,
+       DECODE( sc.f_area,'0001','西南共享平台','0002','华南共享平台','0003','长三角共享平台','0004','环渤海共享平台') F_AREAMC,
+             t5.F_uP_TIME,
+       t5.F_SMR,
+       t5.F_SMRMC
+  FROM SC_POST_DTL MX,sc_task sc,HX_YWXT YW,(SELECT F_BILL_ID, TO_CHAR(TO_DATE(SUBSTR(MAX(F_uP_TIME),0, 14),
+                       'yyyymmddhh24miss'),'yyyymmddhh24miss') F_uP_TIME , (SELECT US.USR_DESCRIPTION
+          FROM SSF_USERS US
+         WHERE US.USR_USRID =   ATT.F_USER_ID) F_SMR,F_USER_NAME F_SMRMC FROM SC_ATTACH ATT GROUP BY F_BILL_ID,F_USER_ID,F_USER_NAME ) T5 
+ where mx.f_bill_id=sc.f_bill_id(+) AND MX.F_LYXT=YW.F_CODE(+)  AND SC.F_BILL_ID=T5.F_BILL_ID(+)  AND  MX.F_CLSJ>='20190701000000000'</sql>
+    <limit>0</limit>
+    <lookup />
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>272</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step_error_handling>
+  </step_error_handling>
+  <slave-step-copy-partition-distribution>
+  </slave-step-copy-partition-distribution>
+  <slave_transformation>N</slave_transformation>
+</transformation>

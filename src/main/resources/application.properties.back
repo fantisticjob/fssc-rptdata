@@ -1,0 +1,39 @@
+
+mybatis-plus.global-config.id-type=1
+mybatis-plus.global-config.key-generator=com.baomidou.mybatisplus.extension.incrementer.OracleKeyGenerator
+
+spring.datasource.druid.driver-class-name=oracle.jdbc.OracleDriver
+#spring.datasource.druid.url=jdbc:oracle:thin:@10.12.81.8:1521:report
+#spring.datasource.druid.username=fsscreport
+#spring.datasource.druid.password=LsY6kPWYuJZf1SsY
+
+# FSSCERM 10.231.64.55   fssc_rptuser/fssc_rptuser123 
+spring.datasource.druid.url = jdbc:oracle:thin:@10.231.64.55:1521/FSSCERM
+spring.datasource.druid.username = fssc_rptuser
+spring.datasource.druid.password = fssc_rptuser123
+
+
+
+spring.datasource.druid.initial-size=10
+spring.datasource.druid.min-idle=10
+spring.datasource.druid.max-active=20
+spring.datasource.druid.validation-query=select * from dual
+
+server.port=9999
+server.servlet.context-path=/fssc_rptdata
+
+xxl.job.admin.addresses=http://job.longfor.sit
+xxl.job.accessToken=53aa0953
+xxl.job.executor.appname=fssc_rptdata
+xxl.job.executor.port=8998
+xxl.job.executor.logpath=/home/lhadmin/jarFile/log
+xxl.job.executor.logretentiondays=-1
+xxl.job.executor.ip=
+xxl.job.executor.address=
+
+
+kettel.host1 = 10.12.97.4
+kettel.host2 = 10.12.97.4
+kettel.port = 9081
+
+kettel.job.path=job_test

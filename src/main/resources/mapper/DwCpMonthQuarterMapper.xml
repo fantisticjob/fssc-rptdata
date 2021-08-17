@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.longfor.fsscreportdb.oa.mapper.DwCpMonthQuarterMapper">
+    <resultMap id="DwCpMonthQuarter" type="com.longfor.fsscreportdb.oa.entity.DwCpMonthQuarter">
+        <id property="dataDate" column="DATA_DATE"></id>
+    </resultMap>
+
+    <select id="getMinDataDate" resultMap="DwCpMonthQuarter">
+        --发送待办月份：当前季度的最新月份
+        select min(data_date) DATA_DATE
+            from dw_cp_month_quarter
+        where quarter in
+            (select quarter
+             from dw_cp_month_quarter
+             where data_date = to_char(sysdate, 'yyyy-mm'))
+    </select>
+</mapper>

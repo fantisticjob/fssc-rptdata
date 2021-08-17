@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transformation>
+  <info>
+    <name>T_DW_FSI_ACCOUNT_DETAIL</name>
+    <description />
+    <extended_description />
+    <trans_version />
+    <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
+    <directory>/</directory>
+    <parameters>
+    </parameters>
+    <log>
+      <trans-log-table>
+        <connection />
+        <schema />
+        <table />
+        <size_limit_lines />
+        <interval />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STATUS</id>
+          <enabled>Y</enabled>
+          <name>STATUS</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+          <subject />
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>STARTDATE</id>
+          <enabled>Y</enabled>
+          <name>STARTDATE</name>
+        </field>
+        <field>
+          <id>ENDDATE</id>
+          <enabled>Y</enabled>
+          <name>ENDDATE</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>DEPDATE</id>
+          <enabled>Y</enabled>
+          <name>DEPDATE</name>
+        </field>
+        <field>
+          <id>REPLAYDATE</id>
+          <enabled>Y</enabled>
+          <name>REPLAYDATE</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>Y</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+        <field>
+          <id>EXECUTING_SERVER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_SERVER</name>
+        </field>
+        <field>
+          <id>EXECUTING_USER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_USER</name>
+        </field>
+        <field>
+          <id>CLIENT</id>
+          <enabled>N</enabled>
+          <name>CLIENT</name>
+        </field>
+      </trans-log-table>
+      <perf-log-table>
+        <connection />
+        <schema />
+        <table />
+        <interval />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>SEQ_NR</id>
+          <enabled>Y</enabled>
+          <name>SEQ_NR</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>INPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>INPUT_BUFFER_ROWS</name>
+        </field>
+        <field>
+          <id>OUTPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>OUTPUT_BUFFER_ROWS</name>
+        </field>
+      </perf-log-table>
+      <channel-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>LOGGING_OBJECT_TYPE</id>
+          <enabled>Y</enabled>
+          <name>LOGGING_OBJECT_TYPE</name>
+        </field>
+        <field>
+          <id>OBJECT_NAME</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_NAME</name>
+        </field>
+        <field>
+          <id>OBJECT_COPY</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_COPY</name>
+        </field>
+        <field>
+          <id>REPOSITORY_DIRECTORY</id>
+          <enabled>Y</enabled>
+          <name>REPOSITORY_DIRECTORY</name>
+        </field>
+        <field>
+          <id>FILENAME</id>
+          <enabled>Y</enabled>
+          <name>FILENAME</name>
+        </field>
+        <field>
+          <id>OBJECT_ID</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_ID</name>
+        </field>
+        <field>
+          <id>OBJECT_REVISION</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_REVISION</name>
+        </field>
+        <field>
+          <id>PARENT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>PARENT_CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>ROOT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>ROOT_CHANNEL_ID</name>
+        </field>
+      </channel-log-table>
+      <step-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>N</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+      </step-log-table>
+      <metrics-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_DATE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_CODE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_CODE</name>
+        </field>
+        <field>
+          <id>METRICS_DESCRIPTION</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DESCRIPTION</name>
+        </field>
+        <field>
+          <id>METRICS_SUBJECT</id>
+          <enabled>Y</enabled>
+          <name>METRICS_SUBJECT</name>
+        </field>
+        <field>
+          <id>METRICS_TYPE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_TYPE</name>
+        </field>
+        <field>
+          <id>METRICS_VALUE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_VALUE</name>
+        </field>
+      </metrics-log-table>
+    </log>
+    <maxdate>
+      <connection />
+      <table />
+      <field />
+      <offset>0.0</offset>
+      <maxdiff>0.0</maxdiff>
+    </maxdate>
+    <size_rowset>10000</size_rowset>
+    <sleep_time_empty>50</sleep_time_empty>
+    <sleep_time_full>50</sleep_time_full>
+    <unique_connections>N</unique_connections>
+    <feedback_shown>Y</feedback_shown>
+    <feedback_size>50000</feedback_size>
+    <using_thread_priorities>Y</using_thread_priorities>
+    <shared_objects_file />
+    <capture_step_performance>N</capture_step_performance>
+    <step_performance_capturing_delay>1000</step_performance_capturing_delay>
+    <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
+    <dependencies>
+    </dependencies>
+    <partitionschemas>
+    </partitionschemas>
+    <slaveservers>
+    </slaveservers>
+    <clusterschemas>
+    </clusterschemas>
+    <created_user>-</created_user>
+    <created_date>2020/06/28 11:26:56.502</created_date>
+    <modified_user>-</modified_user>
+    <modified_date>2020/06/28 11:26:56.502</modified_date>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+    <is_key_private>N</is_key_private>
+  </info>
+  <notepads>
+  </notepads>
+  <connection>
+    <name>oracle</name>
+    <server>r16670.longhu.net</server>
+    <type>ORACLE</type>
+    <access>Native</access>
+    <database>FSSCRPT1</database>
+    <port>1521</port>
+    <username>fsscreport</username>
+    <password>LsY6kPWYuJZf1SsY</password>
+    <servername />
+    <data_tablespace />
+    <index_tablespace />
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>1521</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <order>
+    <hop>
+      <from>资金自查帐户明细-插入</from>
+      <to>增加序列</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>增加序列</from>
+      <to>表输出</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>资金自查帐户明细-更新</from>
+      <to>更新</to>
+      <enabled>Y</enabled>
+    </hop>
+  </order>
+  <step>
+    <name>增加序列</name>
+    <type>Sequence</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <valuename>urid</valuename>
+    <use_database>Y</use_database>
+    <connection>oracle</connection>
+    <schema />
+    <seqname>DW_FSI_ACCOUNT_DETAIL_S</seqname>
+    <use_counter>N</use_counter>
+    <counter_name />
+    <start_at>1</start_at>
+    <increment_by>1</increment_by>
+    <max_value>999999999</max_value>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>496</xloc>
+      <yloc>80</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>更新</name>
+    <type>Update</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <connection>oracle</connection>
+    <skip_lookup>N</skip_lookup>
+    <commit>100</commit>
+    <use_batch>N</use_batch>
+    <error_ignored>N</error_ignored>
+    <ignore_flag_field />
+    <lookup>
+      <schema />
+      <table>DW_FSI_ACCOUNT_DETAIL</table>
+      <key>
+        <name>ACCOUNTNUMBER</name>
+        <field>ACCOUNTNUMBER</field>
+        <condition>=</condition>
+        <name2 />
+      </key>
+      <key>
+        <name>DATA_DATE</name>
+        <field>DATA_DATE</field>
+        <condition>=</condition>
+        <name2 />
+      </key>
+      <key>
+        <name>CURRENCY</name>
+        <field>CURRENCY</field>
+        <condition>=</condition>
+        <name2 />
+      </key>
+      <value>
+        <name>PLAT_CODE</name>
+        <rename>PLAT_CODE</rename>
+      </value>
+      <value>
+        <name>PLAT_NAME</name>
+        <rename>PLAT_NAME</rename>
+      </value>
+      <value>
+        <name>AREA_CODE</name>
+        <rename>AREA_CODE</rename>
+      </value>
+      <value>
+        <name>AREA_NAME</name>
+        <rename>AREA_NAME</rename>
+      </value>
+      <value>
+        <name>ORGID_CODE</name>
+        <rename>ORGID_CODE</rename>
+      </value>
+      <value>
+        <name>ORGID_NAME</name>
+        <rename>ORGID_NAME</rename>
+      </value>
+      <value>
+        <name>BLOCK</name>
+        <rename>BLOCK</rename>
+      </value>
+      <value>
+        <name>ACCOUNTNUMBER</name>
+        <rename>ACCOUNTNUMBER</rename>
+      </value>
+      <value>
+        <name>ACCOUNT_NAME</name>
+        <rename>ACCOUNT_NAME</rename>
+      </value>
+      <value>
+        <name>BANKLOCATIONID</name>
+        <rename>BANKLOCATIONID</rename>
+      </value>
+      <value>
+        <name>BANK</name>
+        <rename>BANK</rename>
+      </value>
+      <value>
+        <name>ISBANKDIRECT</name>
+        <rename>ISBANKDIRECT</rename>
+      </value>
+      <value>
+        <name>ACCOUNT_XZ</name>
+        <rename>ACCOUNT_XZ</rename>
+      </value>
+      <value>
+        <name>ACOUUNT_STATUS</name>
+        <rename>ACOUUNT_STATUS</rename>
+      </value>
+      <value>
+        <name>CURRENCY</name>
+        <rename>CURRENCY</rename>
+      </value>
+      <value>
+        <name>CLOSINGBALANCE</name>
+        <rename>CLOSINGBALANCE</rename>
+      </value>
+      <value>
+        <name>AVE_NUMBER</name>
+        <rename>AVE_NUMBER</rename>
+      </value>
+      <value>
+        <name>LS_NUMBER</name>
+        <rename>LS_NUMBER</rename>
+      </value>
+      <value>
+        <name>XY_CK_JD</name>
+        <rename>XY_CK_JD</rename>
+      </value>
+      <value>
+        <name>LX_PAY_TYPE</name>
+        <rename>LX_PAY_TYPE</rename>
+      </value>
+      <value>
+        <name>XY_CK_RATE</name>
+        <rename>XY_CK_RATE</rename>
+      </value>
+      <value>
+        <name>XY_CK_BK_RESEON</name>
+        <rename>XY_CK_BK_RESEON</rename>
+      </value>
+      <value>
+        <name>ZJ_PLAT_KH_START_TIME</name>
+        <rename>ZJ_PLAT_KH_START_TIME</rename>
+      </value>
+      <value>
+        <name>ZJ_KH_SP_END_TIME</name>
+        <rename>ZJ_KH_SP_END_TIME</rename>
+      </value>
+      <value>
+        <name>KH_QY_OP_TIME</name>
+        <rename>KH_QY_OP_TIME</rename>
+      </value>
+      <value>
+        <name>ZJ_PLAT_XH_TIME</name>
+        <rename>ZJ_PLAT_XH_TIME</rename>
+      </value>
+      <value>
+        <name>ZJ_XH_SP_END_TIME</name>
+        <rename>ZJ_XH_SP_END_TIME</rename>
+      </value>
+      <value>
+        <name>XH_OP_TIME</name>
+        <rename>XH_OP_TIME</rename>
+      </value>
+      <value>
+        <name>DATA_DATE</name>
+        <rename>DATA_DATE</rename>
+      </value>
+      <value>
+        <name>YEAR</name>
+        <rename>YEAR</rename>
+      </value>
+      <value>
+        <name>JIDU</name>
+        <rename>JIDU</rename>
+      </value>
+      <value>
+        <name>KH_ZC</name>
+        <rename>KH_ZC</rename>
+      </value>
+      <value>
+        <name>XH_ZC</name>
+        <rename>XH_ZC</rename>
+      </value>
+      <value>
+        <name>ETL_TIME</name>
+        <rename>ETL_TIME</rename>
+      </value>
+    </lookup>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>512</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输出</name>
+    <type>TableOutput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <connection>oracle</connection>
+    <schema />
+    <table>DW_FSI_ACCOUNT_DETAIL</table>
+    <commit>2000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>Y</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field />
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field />
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field />
+    <fields>
+      <field>
+        <column_name>PLAT_CODE</column_name>
+        <stream_name>PLAT_CODE</stream_name>
+      </field>
+      <field>
+        <column_name>PLAT_NAME</column_name>
+        <stream_name>PLAT_NAME</stream_name>
+      </field>
+      <field>
+        <column_name>AREA_CODE</column_name>
+        <stream_name>AREA_CODE</stream_name>
+      </field>
+      <field>
+        <column_name>AREA_NAME</column_name>
+        <stream_name>AREA_NAME</stream_name>
+      </field>
+      <field>
+        <column_name>ORGID_CODE</column_name>
+        <stream_name>ORGID_CODE</stream_name>
+      </field>
+      <field>
+        <column_name>ORGID_NAME</column_name>
+        <stream_name>ORGID_NAME</stream_name>
+      </field>
+      <field>
+        <column_name>BLOCK</column_name>
+        <stream_name>BLOCK</stream_name>
+      </field>
+      <field>
+        <column_name>ACCOUNTNUMBER</column_name>
+        <stream_name>ACCOUNTNUMBER</stream_name>
+      </field>
+      <field>
+        <column_name>ACCOUNT_NAME</column_name>
+        <stream_name>ACCOUNT_NAME</stream_name>
+      </field>
+      <field>
+        <column_name>BANKLOCATIONID</column_name>
+        <stream_name>BANKLOCATIONID</stream_name>
+      </field>
+      <field>
+        <column_name>BANK</column_name>
+        <stream_name>BANK</stream_name>
+      </field>
+      <field>
+        <column_name>ISBANKDIRECT</column_name>
+        <stream_name>ISBANKDIRECT</stream_name>
+      </field>
+      <field>
+        <column_name>ACCOUNT_XZ</column_name>
+        <stream_name>ACCOUNT_XZ</stream_name>
+      </field>
+      <field>
+        <column_name>ACOUUNT_STATUS</column_name>
+        <stream_name>ACOUUNT_STATUS</stream_name>
+      </field>
+      <field>
+        <column_name>CURRENCY</column_name>
+        <stream_name>CURRENCY</stream_name>
+      </field>
+      <field>
+        <column_name>CLOSINGBALANCE</column_name>
+        <stream_name>CLOSINGBALANCE</stream_name>
+      </field>
+      <field>
+        <column_name>AVE_NUMBER</column_name>
+        <stream_name>AVE_NUMBER</stream_name>
+      </field>
+      <field>
+        <column_name>LS_NUMBER</column_name>
+        <stream_name>LS_NUMBER</stream_name>
+      </field>
+      <field>
+        <column_name>XY_CK_JD</column_name>
+        <stream_name>XY_CK_JD</stream_name>
+      </field>
+      <field>
+        <column_name>LX_PAY_TYPE</column_name>
+        <stream_name>LX_PAY_TYPE</stream_name>
+      </field>
+      <field>
+        <column_name>XY_CK_RATE</column_name>
+        <stream_name>XY_CK_RATE</stream_name>
+      </field>
+      <field>
+        <column_name>XY_CK_BK_RESEON</column_name>
+        <stream_name>XY_CK_BK_RESEON</stream_name>
+      </field>
+      <field>
+        <column_name>ZJ_PLAT_KH_START_TIME</column_name>
+        <stream_name>ZJ_PLAT_KH_START_TIME</stream_name>
+      </field>
+      <field>
+        <column_name>ZJ_KH_SP_END_TIME</column_name>
+        <stream_name>ZJ_KH_SP_END_TIME</stream_name>
+      </field>
+      <field>
+        <column_name>KH_QY_OP_TIME</column_name>
+        <stream_name>KH_QY_OP_TIME</stream_name>
+      </field>
+      <field>
+        <column_name>ZJ_PLAT_XH_TIME</column_name>
+        <stream_name>ZJ_PLAT_XH_TIME</stream_name>
+      </field>
+      <field>
+        <column_name>ZJ_XH_SP_END_TIME</column_name>
+        <stream_name>ZJ_XH_SP_END_TIME</stream_name>
+      </field>
+      <field>
+        <column_name>XH_OP_TIME</column_name>
+        <stream_name>XH_OP_TIME</stream_name>
+      </field>
+      <field>
+        <column_name>DATA_DATE</column_name>
+        <stream_name>DATA_DATE</stream_name>
+      </field>
+      <field>
+        <column_name>YEAR</column_name>
+        <stream_name>YEAR</stream_name>
+      </field>
+      <field>
+        <column_name>JIDU</column_name>
+        <stream_name>JIDU</stream_name>
+      </field>
+      <field>
+        <column_name>KH_ZC</column_name>
+        <stream_name>KH_ZC</stream_name>
+      </field>
+      <field>
+        <column_name>XH_ZC</column_name>
+        <stream_name>XH_ZC</stream_name>
+      </field>
+      <field>
+        <column_name>urid</column_name>
+        <stream_name>urid</stream_name>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>656</xloc>
+      <yloc>80</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>资金自查帐户明细-插入</name>
+    <type>TableInput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <connection>oracle</connection>
+    <sql>--资金自查
+with w1 as
+ (
+  --平台、地区、账套、账户
+  select nvl(c.plat_code, d.plat_code) plat_code
+       ,nvl(c.plat_name, d.plat_name) plat_name --平台
+       ,b.area_code
+       ,b.area_name --地区 
+       ,b.accountingbookcode accounts_id --账簿code
+       ,b.accounts_name --账套
+       ,b.chanal --航道
+       ,a.account_id
+       ,a.account_name --账户
+   from ba_accounts_account a --账套账户对应表
+   left join ba_area_accounts b --地区账套对应表
+     on a.accounts_id = b.accounts_id
+   left join (select * from ba_plat_area where area_name &lt;&gt; '集团') c --取非集团地区对应的平台
+     on b.area_code = c.area_code
+   left join (select * from ba_plat_area_fkdw where area_name = '集团') d --取集团下公司对应的平台
+     on b.accounts_name = d.fkdw),
+w2 as
+ ( --资金自查账户余额表:取每个账户最大日期的数据
+ select *
+   from (select a.*
+               ,row_number() over(partition by accountid order by reportdate desc, op_time desc) rank
+           from ods_zjzc_account_balance a)
+  where rank = 1
+           ),
+w3 as
+ ( --金平台开户申请审批完成日期：账户申请表-审批状态为2（已审批）-维护标识为1（开户）-最小的修改时间
+  select a.accountid, min(a.lastmodifiedon) lastmodifiedon --开户审批完成时间
+    from ods_zjzc_accounts_applies a
+   where a.approvestate = 2
+     and a.maintainflag = 1
+   group by accountid),
+w4 as
+ ( --资金平台销户申请审批完成日期：账户申请表-审批状态为2（已审批）-维护标识为5（销户）-最小的修改时间
+  select a.accountid, min(a.lastmodifiedon) lastmodifiedon --销户审批完成时间
+    from ods_zjzc_accounts_applies a
+   where a.approvestate = 2
+     and a.maintainflag = 5
+   group by accountid),
+w0 as
+ (--资金自查账户扩展表:取协定存款办理进度、协定存款协定利率、不可办理协定存款原因
+	select *
+		from (select t.*
+								,row_number() over(partition by account_id order by lastmodifiedon desc) rank
+						from ods_zjzc_accounts_extend t)
+	 where rank = 1),
+w5 as
+ (select w1.plat_code
+        ,w1.plat_name --平台
+        ,w1.area_code
+        ,w1.area_name --地区
+        ,w1.accounts_id   ORGID_code
+        ,w1.accounts_name ORGID_NAME --组织
+        ,a.hd_flag        BLOCK --板块归属(航道)
+         
+        ,a.accountnumber --银行账号
+        ,a.accountname ACCOUNT_NAME --账户名称
+        ,a.banklocationid --开户银行
+        ,a.bank_code || '-' || a.bank_name BANK --银行    
+        ,a.ISBANKDIRECT --是否银企直联
+        ,a.accounttypeid ACCOUNT_XZ --账户性质
+         
+        ,case
+           when a.ACCOUNTSTATE = '1' then
+            '新建'
+           when a.ACCOUNTSTATE = '2' then
+            '开户'
+           when a.ACCOUNTSTATE = '3' then
+            '冻结'
+           when a.ACCOUNTSTATE = '4' then
+            '销户'
+         end ACOUUNT_STATUS --账户状态｜1-新建2-开户3-冻结4-销户
+        ,a.CURRENCYID CURRENCY --币种ID
+        ,b.closingbalance --账户余额
+        ,b.zhsumbalance AVE_NUMBER --前六个月日均余额
+        ,b.zhtrancount LS_NUMBER --前6个月流水条数
+         
+        ,case
+           when c.TREATYDEPOSITPROGRESS = 1 then
+            '不可办理'
+           when c.TREATYDEPOSITPROGRESS = 2 then
+            '已办理'
+           when c.TREATYDEPOSITPROGRESS = 3 then
+            '办理中'
+         end XY_CK_JD --协定存款办理进度 不可办理，已办理，办理中
+         
+        ,case
+           when c.treatydepositway = 1 then
+            '月度结息'
+           when c.treatydepositway = 2 then
+            '季度结息'
+         end LX_PAY_TYPE --结息方式
+        ,c.TREATYDEPOSITRATE XY_CK_RATE --协定存款协定利率
+        ,case
+           when c.UNDEALDEPOSITREASON = 1 then
+            '合作方账户'
+           when c.UNDEALDEPOSITREASON = 2 then
+            '余额不满足办理标准'
+           when c.UNDEALDEPOSITREASON = 3 then
+            '外币户'
+           when c.UNDEALDEPOSITREASON = 4 then
+            '异地户'
+           when c.UNDEALDEPOSITREASON = 5 then
+            '监管户'
+           when c.UNDEALDEPOSITREASON = 6 then
+            '贷款户'
+           when c.UNDEALDEPOSITREASON = 7 then
+            '保证金户'
+           when c.UNDEALDEPOSITREASON = 8 then
+            '待销户'
+         end XY_CK_BK_RESEON --不可办理协定存款原因
+         
+        ,to_date(substr(a.OPENEDDATE, 1, 10), 'yyyy-mm-dd') ZJ_PLAT_KH_START_TIME --开户日期
+        ,to_date(substr(d.lastmodifiedon, 1, 10), 'yyyy-mm-dd') ZJ_KH_SP_END_TIME --资金平台开户申请审批完成日期
+        ,case
+           when a.accountstate = 2 then
+            to_date(substr(a.createdon, 1, 10), 'yyyy-mm-dd')
+         end KH_QY_OP_TIME --开户启用日期的操作时间
+         
+        ,to_date(substr(a.CLOSEDDATE, 1, 10), 'yyyy-mm-dd') ZJ_PLAT_XH_TIME --销户日期
+        ,to_date(substr(e.lastmodifiedon, 1, 10), 'yyyy-mm-dd') ZJ_XH_SP_END_TIME --资金平台销户申请审批完成日期
+        ,case
+           when a.accountstate = 4 then
+            to_date(substr(a.lastmodifiedon, 1, 10), 'yyyy-mm-dd')
+         end XH_OP_TIME --录入销户日期的操作时间
+         
+        ,to_char(sysdate - 1, 'yyyy-mm') data_date --年月
+        ,to_char(sysdate - 1, 'yyyy') year --年
+        ,to_char(sysdate - 1, 'yyyy') || 'Q' || TO_CHAR(SYSDATE, 'q') jidu --季度
+    from ods_zjzc_account a
+    left join w2 b --资金自查账户余额表:取每个账户最大日期的前6个月流水条数、前六个月日均余额
+      on a.urid = b.accountid
+    left join w0 c --资金自查账户扩展表:取协定存款办理进度、协定存款协定利率、不可办理协定存款原因
+      on a.urid = c.account_id
+    left join w3 d --金平台开户申请审批完成日期：账户申请表-审批状态为2（已审批）-维护标识为1（开户）-最小的修改时间
+      on a.urid = d.accountid
+    left join w4 e --资金平台销户申请审批完成日期：账户申请表-审批状态为2（已审批）-维护标识为5（销户）-最小的修改时间
+      on a.urid = e.accountid
+    left join w1
+      on a.accountnumber = w1.account_id
+    --where a.accountnumber='44067201040010575'
+   where not exists (select 1
+            from DW_FSI_ACCOUNT_DETAIL m
+           where data_date = to_char(sysdate - 1, 'yyyy-mm')
+					  and a.accountnumber=m.accountnumber 
+					  and a.currencyid=m.currency)
+)
+
+select w5.*
+       --1.账户开户申请审批完成日期≤账户启用日期&amp;账户启用日期月份=录入启用日期月份      流程正确
+       --2.账户开户申请审批完成日期＞账户启用日期&amp;账户启用日期月份=录入启用日期月份
+       --或 账户开户申请审批完成日期＞账户启用日期&amp;账户启用日期月份≠录入启用日期月份    先做后补
+       --3.账户开户申请审批完成日期&lt;账户启用日期&amp;账户启用日期月份≠录入启用日期月份      当月未在资金平台新增账户
+			 --ZJ_PLAT_KH_START_TIME --开户日期
+       --ZJ_KH_SP_END_TIME --资金平台开户申请审批完成日期
+       --KH_QY_OP_TIME --开户启用日期的操作时间
+      ,case
+         when ACOUUNT_STATUS = '开户' then
+          case
+            when ZJ_KH_SP_END_TIME &lt;= ZJ_PLAT_KH_START_TIME and
+                 to_char(ZJ_PLAT_KH_START_TIME, 'mm') =
+                 to_char(KH_QY_OP_TIME, 'mm') then
+             '流程正确'
+            else
+             case
+               when ZJ_KH_SP_END_TIME > ZJ_PLAT_KH_START_TIME then
+                '先做后补'
+               else
+                case
+                  when ZJ_KH_SP_END_TIME &lt; ZJ_PLAT_KH_START_TIME and
+                       to_char(ZJ_PLAT_KH_START_TIME, 'mm') &lt;&gt;
+                       to_char(KH_QY_OP_TIME, 'mm') then
+                   '当月未在资金平台新增账户'
+                end
+             end
+          end
+       end KH_ZC --开户流程合规自查
+			 
+       --1.销户审批完成日期≤账户销户日期且 账户销户日期月份=录入销户日期月份  流程正确
+       --2.销户审批完成日期＞销户日期且 账户销户日期月份=录入销户日期月份
+       --或 销户审批完成日期＞销户日期且 账户销户日期月份≠录入销户日期月份    先做后补
+       --3.账户审批完成日期＜销户日期且 账户销户日期月份≠录入销户日期月份     当月未从资金平台销户
+			 --ZJ_PLAT_XH_TIME --销户日期
+       --ZJ_XH_SP_END_TIME --资金平台销户申请审批完成日期
+       --XH_OP_TIME --录入销户日期的操作时间
+      ,case
+         when ACOUUNT_STATUS = '销户' then
+          case
+            when ZJ_XH_SP_END_TIME &lt;= ZJ_PLAT_XH_TIME and
+                 to_char(ZJ_PLAT_XH_TIME, 'mm') = to_char(XH_OP_TIME, 'mm') then
+             '流程正确'
+            else
+             case
+               when ZJ_XH_SP_END_TIME > ZJ_PLAT_XH_TIME then
+                '先做后补'
+               else
+                case
+                  when ZJ_XH_SP_END_TIME &lt; ZJ_PLAT_XH_TIME and
+                       to_char(ZJ_PLAT_XH_TIME, 'mm') &lt;&gt; to_char(XH_OP_TIME, 'mm') then
+                   '当月未从资金平台销户'
+                end
+             end
+          end
+       end XH_ZC --消户流程合规自查
+  from w5
+
+</sql>
+    <limit>0</limit>
+    <lookup />
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>304</xloc>
+      <yloc>80</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>资金自查帐户明细-更新</name>
+    <type>TableInput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <connection>oracle</connection>
+    <sql>--资金自查
+with w1 as
+ (
+  --平台、地区、账套、账户
+  select nvl(c.plat_code, d.plat_code) plat_code
+       ,nvl(c.plat_name, d.plat_name) plat_name --平台
+       ,b.area_code
+       ,b.area_name --地区 
+       ,b.accountingbookcode accounts_id --账簿code
+       ,b.accounts_name --账套
+       ,b.chanal --航道
+       ,a.account_id
+       ,a.account_name --账户
+   from ba_accounts_account a --账套账户对应表
+   left join ba_area_accounts b --地区账套对应表
+     on a.accounts_id = b.accounts_id
+   left join (select * from ba_plat_area where area_name &lt;&gt; '集团') c --取非集团地区对应的平台
+     on b.area_code = c.area_code
+   left join (select * from ba_plat_area_fkdw where area_name = '集团') d --取集团下公司对应的平台
+     on b.accounts_name = d.fkdw),
+w2 as
+ ( --资金自查账户余额表:取每个账户最大日期的数据
+ select *
+   from (select a.*
+               ,row_number() over(partition by accountid order by reportdate desc, op_time desc) rank
+           from ods_zjzc_account_balance a)
+  where rank = 1
+           ),
+w3 as
+ ( --金平台开户申请审批完成日期：账户申请表-审批状态为2（已审批）-维护标识为1（开户）-最小的修改时间
+  select a.accountid, min(a.lastmodifiedon) lastmodifiedon --开户审批完成时间
+    from ods_zjzc_accounts_applies a
+   where a.approvestate = 2
+     and a.maintainflag = 1
+   group by accountid),
+w4 as
+ ( --资金平台销户申请审批完成日期：账户申请表-审批状态为2（已审批）-维护标识为5（销户）-最小的修改时间
+  select a.accountid, min(a.lastmodifiedon) lastmodifiedon --销户审批完成时间
+    from ods_zjzc_accounts_applies a
+   where a.approvestate = 2
+     and a.maintainflag = 5
+   group by accountid),
+w0 as
+ (--资金自查账户扩展表:取协定存款办理进度、协定存款协定利率、不可办理协定存款原因
+	select *
+		from (select t.*
+								,row_number() over(partition by account_id order by lastmodifiedon desc) rank
+						from ods_zjzc_accounts_extend t)
+	 where rank = 1),
+w5 as
+ (select w1.plat_code
+        ,w1.plat_name --平台
+        ,w1.area_code
+        ,w1.area_name --地区
+        ,w1.accounts_id   ORGID_code
+        ,w1.accounts_name ORGID_NAME --组织
+        ,a.hd_flag        BLOCK --板块归属(航道)
+         
+        ,a.accountnumber --银行账号
+        ,a.accountname ACCOUNT_NAME --账户名称
+        ,a.banklocationid --开户银行
+        ,a.bank_code || '-' || a.bank_name BANK --银行    
+        ,a.ISBANKDIRECT --是否银企直联
+        ,a.accounttypeid ACCOUNT_XZ --账户性质
+         
+        ,case
+           when a.ACCOUNTSTATE = '1' then
+            '新建'
+           when a.ACCOUNTSTATE = '2' then
+            '开户'
+           when a.ACCOUNTSTATE = '3' then
+            '冻结'
+           when a.ACCOUNTSTATE = '4' then
+            '销户'
+         end ACOUUNT_STATUS --账户状态｜1-新建2-开户3-冻结4-销户
+        ,a.CURRENCYID CURRENCY --币种ID
+        ,b.closingbalance --账户余额
+        ,b.zhsumbalance AVE_NUMBER --前六个月日均余额
+        ,b.zhtrancount LS_NUMBER --前6个月流水条数
+         
+        ,case
+           when c.TREATYDEPOSITPROGRESS = 1 then
+            '不可办理'
+           when c.TREATYDEPOSITPROGRESS = 2 then
+            '已办理'
+           when c.TREATYDEPOSITPROGRESS = 3 then
+            '办理中'
+         end XY_CK_JD --协定存款办理进度 不可办理，已办理，办理中
+         
+        ,case
+           when c.treatydepositway = 1 then
+            '月度结息'
+           when c.treatydepositway = 2 then
+            '季度结息'
+         end LX_PAY_TYPE --结息方式
+        ,c.TREATYDEPOSITRATE XY_CK_RATE --协定存款协定利率
+        ,case
+           when c.UNDEALDEPOSITREASON = 1 then
+            '合作方账户'
+           when c.UNDEALDEPOSITREASON = 2 then
+            '余额不满足办理标准'
+           when c.UNDEALDEPOSITREASON = 3 then
+            '外币户'
+           when c.UNDEALDEPOSITREASON = 4 then
+            '异地户'
+           when c.UNDEALDEPOSITREASON = 5 then
+            '监管户'
+           when c.UNDEALDEPOSITREASON = 6 then
+            '贷款户'
+           when c.UNDEALDEPOSITREASON = 7 then
+            '保证金户'
+           when c.UNDEALDEPOSITREASON = 8 then
+            '待销户'
+         end XY_CK_BK_RESEON --不可办理协定存款原因
+         
+        ,to_date(substr(a.OPENEDDATE, 1, 10), 'yyyy-mm-dd') ZJ_PLAT_KH_START_TIME --开户日期
+        ,to_date(substr(d.lastmodifiedon, 1, 10), 'yyyy-mm-dd') ZJ_KH_SP_END_TIME --资金平台开户申请审批完成日期
+        ,case
+           when a.accountstate = 2 then
+            to_date(substr(a.createdon, 1, 10), 'yyyy-mm-dd')
+         end KH_QY_OP_TIME --开户启用日期的操作时间
+         
+        ,to_date(substr(a.CLOSEDDATE, 1, 10), 'yyyy-mm-dd') ZJ_PLAT_XH_TIME --销户日期
+        ,to_date(substr(e.lastmodifiedon, 1, 10), 'yyyy-mm-dd') ZJ_XH_SP_END_TIME --资金平台销户申请审批完成日期
+        ,case
+           when a.accountstate = 4 then
+            to_date(substr(a.lastmodifiedon, 1, 10), 'yyyy-mm-dd')
+         end XH_OP_TIME --录入销户日期的操作时间
+         
+        ,to_char(sysdate - 1, 'yyyy-mm') data_date --年月
+        ,to_char(sysdate - 1, 'yyyy') year --年
+        ,to_char(sysdate - 1, 'yyyy') || 'Q' || TO_CHAR(SYSDATE, 'q') jidu --季度
+    from ods_zjzc_account a
+    left join w2 b --资金自查账户余额表:取每个账户最大日期的前6个月流水条数、前六个月日均余额
+      on a.urid = b.accountid
+    left join w0 c --资金自查账户扩展表:取协定存款办理进度、协定存款协定利率、不可办理协定存款原因
+      on a.urid = c.account_id
+    left join w3 d --金平台开户申请审批完成日期：账户申请表-审批状态为2（已审批）-维护标识为1（开户）-最小的修改时间
+      on a.urid = d.accountid
+    left join w4 e --资金平台销户申请审批完成日期：账户申请表-审批状态为2（已审批）-维护标识为5（销户）-最小的修改时间
+      on a.urid = e.accountid
+    left join w1
+      on a.accountnumber = w1.account_id
+    --where a.accountnumber='44067201040010575'
+   where  exists (select 1
+            from DW_FSI_ACCOUNT_DETAIL m
+           where data_date = to_char(sysdate - 1, 'yyyy-mm')
+					  and a.accountnumber=m.accountnumber 
+					  and a.currencyid=m.currency)
+)
+
+select w5.*
+       --1.账户开户申请审批完成日期≤账户启用日期&amp;账户启用日期月份=录入启用日期月份      流程正确
+       --2.账户开户申请审批完成日期＞账户启用日期&amp;账户启用日期月份=录入启用日期月份
+       --或 账户开户申请审批完成日期＞账户启用日期&amp;账户启用日期月份≠录入启用日期月份    先做后补
+       --3.账户开户申请审批完成日期&lt;账户启用日期&amp;账户启用日期月份≠录入启用日期月份      当月未在资金平台新增账户
+			 --ZJ_PLAT_KH_START_TIME --开户日期
+       --ZJ_KH_SP_END_TIME --资金平台开户申请审批完成日期
+       --KH_QY_OP_TIME --开户启用日期的操作时间
+      ,case
+         when ACOUUNT_STATUS = '开户' then
+          case
+            when ZJ_KH_SP_END_TIME &lt;= ZJ_PLAT_KH_START_TIME and
+                 to_char(ZJ_PLAT_KH_START_TIME, 'mm') =
+                 to_char(KH_QY_OP_TIME, 'mm') then
+             '流程正确'
+            else
+             case
+               when ZJ_KH_SP_END_TIME > ZJ_PLAT_KH_START_TIME then
+                '先做后补'
+               else
+                case
+                  when ZJ_KH_SP_END_TIME &lt; ZJ_PLAT_KH_START_TIME and
+                       to_char(ZJ_PLAT_KH_START_TIME, 'mm') &lt;&gt;
+                       to_char(KH_QY_OP_TIME, 'mm') then
+                   '当月未在资金平台新增账户'
+                end
+             end
+          end
+       end KH_ZC --开户流程合规自查
+			 
+       --1.销户审批完成日期≤账户销户日期且 账户销户日期月份=录入销户日期月份  流程正确
+       --2.销户审批完成日期＞销户日期且 账户销户日期月份=录入销户日期月份
+       --或 销户审批完成日期＞销户日期且 账户销户日期月份≠录入销户日期月份    先做后补
+       --3.账户审批完成日期＜销户日期且 账户销户日期月份≠录入销户日期月份     当月未从资金平台销户
+			 --ZJ_PLAT_XH_TIME --销户日期
+       --ZJ_XH_SP_END_TIME --资金平台销户申请审批完成日期
+       --XH_OP_TIME --录入销户日期的操作时间
+      ,case
+         when ACOUUNT_STATUS = '销户' then
+          case
+            when ZJ_XH_SP_END_TIME &lt;= ZJ_PLAT_XH_TIME and
+                 to_char(ZJ_PLAT_XH_TIME, 'mm') = to_char(XH_OP_TIME, 'mm') then
+             '流程正确'
+            else
+             case
+               when ZJ_XH_SP_END_TIME > ZJ_PLAT_XH_TIME then
+                '先做后补'
+               else
+                case
+                  when ZJ_XH_SP_END_TIME &lt; ZJ_PLAT_XH_TIME and
+                       to_char(ZJ_PLAT_XH_TIME, 'mm') &lt;&gt; to_char(XH_OP_TIME, 'mm') then
+                   '当月未从资金平台销户'
+                end
+             end
+          end
+       end XH_ZC --消户流程合规自查
+      ,sysdate etl_time
+  from w5
+
+</sql>
+    <limit>0</limit>
+    <lookup />
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>297</xloc>
+      <yloc>242</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step_error_handling>
+  </step_error_handling>
+  <slave-step-copy-partition-distribution>
+  </slave-step-copy-partition-distribution>
+  <slave_transformation>N</slave_transformation>
+</transformation>

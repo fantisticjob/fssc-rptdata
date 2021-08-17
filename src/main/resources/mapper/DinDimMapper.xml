@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.longfor.fsscreportdb.oa.mapper.DinDimMapper">
+    <resultMap id="DinDim" type="com.longfor.fsscreportdb.oa.entity.DinDim">
+        <id property="dimId" column="DIM_ID"></id>
+        <result property="dimValue" column="DIM_VALUE"></result>
+        <result property="remarks" column="REMARKS"></result>
+        <collection property="dinDimValueList" ofType="com.longfor.fsscreportdb.oa.entity.DinDimValue">
+            <result property="dimValueId" column="DIM_VALUE_ID"></result>
+            <result property="dimValueName" column="DIM_VALUE_NAME"></result>
+            <result property="remarks" column="REMARKS2"></result>
+            <result property="useFlag" column="USE_FLAG"></result>
+        </collection>
+    </resultMap>
+
+    <select id="getDinDimList" parameterType="java.util.List" resultMap="DinDim">
+            --往来清理批量取数日期、推送待办日期、待办二次发送日期、龙信拉群日期、群内二次晾晒日期
+        select a.dim_id
+        ,a.dim_value
+        ,a.remarks
+        ,b.dim_value_id
+        ,b.dim_value_name
+        ,b.remarks remarks2
+        ,b.use_flag
+        from din_dim a, din_dim_value b
+        where a.dim_id between '1915' and '1940'
+        and a.dim_id = b.dim_id
+        and b.use_flag = 1
+        and b.remarks in
+        <foreach collection="list" index="index" item="paramsList" open="(" separator="," close=")">
+            #{paramsList}
+        </foreach>
+        order by a.dim_id, b.dim_value_id
+    </select>
+</mapper>

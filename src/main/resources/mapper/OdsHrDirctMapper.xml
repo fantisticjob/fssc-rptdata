@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.longfor.fsscreportdb.ods.mapper.OdsHrDirctMapper">
+
+    <resultMap id="orgDirct" type="com.longfor.fsscreportdb.ods.entity.OdsHrDirct">
+        <result property="oaccount" column="OAACCOUNT"></result>
+        <result property="orgId" column="ORG_ID"></result>
+        <result property="orgDirct" column="ORG_DIRCT"></result>
+        <result property="orgName" column="ORG_NM"></result>
+        <result property="employee" column="EMPLOYEE"></result>
+        <result property="channelNm" column="CHANNELNM"></result>
+        <result property="deptName" column="DEPT_NAME"></result>
+        <result property="areaName" column="AREA_NAME"></result>
+        <result property="id" column="ID"></result>
+        <result property="groupId" column="GROUP_ID"></result>
+        <result property="amount" column="AMOUNT"></result>
+        <result property="regionName" column="REGION_NAME"></result>
+        <result property="regionId" column="REGION_ID"></result>
+        <result property="orderName" column="ORDER_NAME"></result>
+    </resultMap>
+
+    <select id="searchLeaderByOaAccct" parameterType="java.util.List" resultMap="orgDirct">
+SELECT    BB. EMPLOYEE,
+          BB.OAACCOUNT,
+          CASE WHEN BB.CHANNELNM IN ('C1','C3') THEN 'C1' ELSE BB.CHANNELNM END CHANNELNM,
+          BB.ORG_ID,
+          BB.ORG_NM,
+          BB.ORG_DIRCT,
+          BB.AMOUNT,
+          BB.AREA_NAME,
+          BB.ID,
+          BB.GROUP_ID,
+          CASE WHEN BB.CHANNELNM='C3' THEN 'C3 '|| BB.DEPT_NAME ELSE BB.DEPT_NAME END DEPT_NAME,
+          BB.REGION_NAME,
+          BB.REGION_ID,
+          CASE WHEN BB.CHANNELNM IN ('C1','C3') THEN BB.AREA_NAME ELSE BB.REGION_ID END ORDER_NAME
+FROM (
+          SELECT  AA. EMPLOYEE,
+                  AA.OAACCOUNT,
+                  AA.CHANNELNM,
+                  AA.ORG_ID,
+                  AA.ORG_NM,
+                  AA.ORG_DIRCT,
+                  AA.AMOUNT,
+                  AA.AREA_NAME,
+                  AA.ID,
+                  AA.GROUP_ID,
+                  CASE WHEN INSTR(AA.ORG_NM,'-')=0 THEN AA.ORG_NM
+                       WHEN INSTR(AA.ORG_NM,'-')>0 AND INSTR(AA.ORG_NM,'-',1,2)=0 THEN SUBSTR(AA.ORG_NM,INSTR(AA.ORG_NM,'-')+1)
+                       ELSE SUBSTR(AA.ORG_NM,INSTR(AA.ORG_NM,'-')+1,INSTR(AA.ORG_NM,'-',1,2)-INSTR(AA.ORG_NM,'-')-1) END  DEPT_NAME,
+			     ( SELECT  INNONE.ORG_NM
+			       FROM ODS_HR_ORG INNONE
+			       WHERE INNONE.DEPTY_ID='05' and INNONE.DEPCL_ID='01'
+			             START WITH INNONE.ORG_ID = AA.CURR_ORGID
+				         CONNECT BY PRIOR INNONE.PARENTID = INNONE.ORG_ID
+			     ) AS REGION_NAME,
+				 ( SELECT  INNTWO.ORG_ID
+			       FROM ODS_HR_ORG INNTWO
+			       WHERE INNTWO.DEPTY_ID='05' and INNTWO.DEPCL_ID='01'
+			             START WITH INNTWO.ORG_ID = AA.CURR_ORGID
+				         CONNECT BY PRIOR INNTWO.PARENTID = INNTWO.ORG_ID
+			     ) AS REGION_ID
+           FROM (
+                    SELECT A.EMPLOYEE,
+                           A.OAACCOUNT,
+                           B.CHANNELNM,
+                           C.ORG_ID AS CURR_ORGID,
+                           ODT.AMOUNT,
+                           ODT.AREA_NAME,
+                           ODT.ID,
+                           ODT.GROUP_ID,
+                           CASE WHEN B.CHANNELNM = 'C1' AND  (INSTR(D.ORG_NM, '-') = 0 OR INSTR(D.ORG_NM, '事业部') > 0) THEN  C.ORG_ID
+                             WHEN B.CHANNELNM IN ('C2', 'C3') AND INSTR(D.ORG_NM, '-') = 0 THEN  C.ORG_ID
+                             WHEN B.CHANNELNM = 'C4' AND (INSTR(D.ORG_NM, '-')=0 OR  C.ORG_NM LIKE '%店') THEN  C.ORG_ID
+                             WHEN B.CHANNELNM = 'C5' AND  ((D.ORG_NM LIKE '%塘鹅租售' AND INSTR(D.ORG_NM, '-')=0)  OR C.ORG_NM LIKE '%店') THEN  C.ORG_ID
+                             ELSE  D.ORG_ID END ORG_ID,
+                           CASE WHEN B.CHANNELNM = 'C1' AND  (INSTR(D.ORG_NM, '-') = 0 OR INSTR(D.ORG_NM, '事业部') > 0) THEN  C.ORG_NM
+                             WHEN B.CHANNELNM IN ('C2', 'C3') AND INSTR(D.ORG_NM, '-') = 0 THEN  C.ORG_NM
+                             WHEN B.CHANNELNM = 'C4' AND (INSTR(D.ORG_NM, '-')=0 OR  C.ORG_NM LIKE '%店')  THEN  C.ORG_NM
+                             WHEN B.CHANNELNM = 'C5' AND  ((D.ORG_NM LIKE '%塘鹅租售' AND INSTR(D.ORG_NM, '-')=0)  OR C.ORG_NM LIKE '%店') THEN  C.ORG_NM
+                             ELSE  D.ORG_NM END ORG_NM,
+                           CASE WHEN B.CHANNELNM = 'C1' AND (INSTR(D.ORG_NM, '-') = 0 OR INSTR(D.ORG_NM, '事业部') > 0) THEN  C.ORG_DIRCT
+                             WHEN B.CHANNELNM IN ('C2', 'C3') AND INSTR(D.ORG_NM, '-') = 0 THEN  C.ORG_DIRCT
+                             WHEN B.CHANNELNM = 'C4' AND (INSTR(D.ORG_NM, '-')=0 OR  C.ORG_NM LIKE '%店') THEN  C.ORG_DIRCT
+                             WHEN B.CHANNELNM = 'C5' AND ((D.ORG_NM LIKE '%塘鹅租售' AND INSTR(D.ORG_NM, '-')=0)  OR C.ORG_NM LIKE '%店') THEN  C.ORG_DIRCT
+                             ELSE   D.ORG_DIRCT END ORG_DIRCT
+                      FROM (
+                             SELECT CASE WHEN INSTR(DT.RESPON_USER,',')>0 THEN SUBSTR(DT.RESPON_USER,1,INSTR(DT.RESPON_USER,',')-1) ELSE DT.RESPON_USER END RESPON_USER,
+                                            DT.RESPON_USER OR_RESPON_USER,
+                                            DT.AMOUNT,
+                                            DT.CHANAL,
+                                            DT.AREA_NAME,
+                                            DT.ID,
+                                            DT.RE_MARK AS GROUP_ID
+                              FROM DW_CP_CLEAR_UP_DETAIL DT
+                              WHERE DT.RESPON_USER IS NOT NULL
+                              AND DT.GX_FLAG='2'
+                              AND DT.AREA_NAME IS NOT NULL
+                              AND DT.AREA_NAME != '集团'
+                              AND DT.QUARTER = ( select distinct quarter
+                                                 from dw_cp_month_quarter
+                                                 where seq = (select seq - 1
+                                                              from dw_cp_month_quarter
+                                                              where data_date = to_char(sysdate, 'yyyy-mm')
+                                                              )
+                                                )
+                      ) ODT,
+                         ODS_HR_EMPLOYEE A,
+						 ODS_HR_EMPLOYEE_ORG B,
+                         ODS_HR_ORG C,
+						 ODS_HR_ORG D
+					WHERE  ODT.RESPON_USER = A.OAACCOUNT
+					     AND A.EMPLOYEE = B.EMPLOYEEP
+						 AND B.ORGID = C.ORG_ID
+						 AND C.PARENTID = D.ORG_ID(+)
+                )  AA
+     )  BB
+        <choose>
+            <when test='list != null and list.size() > 0'>
+                WHERE BB.AREA_NAME in
+                <foreach collection="list" index="index" item="item" open="(" separator="," close=")">
+                    #{item}
+                </foreach>
+            </when>
+            <otherwise>
+                WHERE 1=2
+            </otherwise>
+        </choose>
+     ORDER BY CHANNELNM, ORDER_NAME, DEPT_NAME
+    </select>
+
+    <select id="searchClearRrdForGroup" parameterType="java.util.List" resultMap="orgDirct">
+        SELECT    BB. EMPLOYEE,
+                  BB.OAACCOUNT,
+                  CASE WHEN BB.CHANNELNM IN ('C1','C3') THEN 'C1' ELSE BB.CHANNELNM END CHANNELNM,
+                  BB.ORG_NM,
+                  BB.AMOUNT,
+                  BB.AREA_NAME,
+                  BB.ID,
+                  BB.GROUP_ID,
+                  BB.REGION_NAME,
+                  CASE WHEN BB.CHANNELNM='C3' THEN 'C3 '|| BB.DEPT_NAME ELSE BB.DEPT_NAME END DEPT_NAME
+        FROM (
+              SELECT  AA. EMPLOYEE,
+                      AA.OAACCOUNT,
+                      AA.CHANNELNM,
+                      AA.ORG_NM,
+                      AA.AMOUNT,
+                      AA.AREA_NAME,
+                      AA.ID,
+                      AA.GROUP_ID,
+                      ( SELECT  INNONE.ORG_NM
+                        FROM ODS_HR_ORG INNONE
+                        WHERE INNONE.DEPTY_ID='05' and INNONE.DEPCL_ID='01'
+                        START WITH INNONE.ORG_ID = AA.CURR_ORGID
+                        CONNECT BY PRIOR INNONE.PARENTID = INNONE.ORG_ID
+                      ) AS REGION_NAME,
+                      CASE WHEN INSTR(AA.ORG_NM,'-')=0 THEN AA.ORG_NM
+                           WHEN INSTR(AA.ORG_NM,'-')>0 AND INSTR(AA.ORG_NM,'-',1,2)=0 THEN SUBSTR(AA.ORG_NM,INSTR(AA.ORG_NM,'-')+1)
+                           ELSE SUBSTR(AA.ORG_NM,INSTR(AA.ORG_NM,'-')+1,INSTR(AA.ORG_NM,'-',1,2)-INSTR(AA.ORG_NM,'-')-1) END  DEPT_NAME
+              FROM (
+                    SELECT A.EMPLOYEE,
+                           A.OAACCOUNT,
+                           B.CHANNELNM,
+                           ODT.AMOUNT,
+                           ODT.AREA_NAME,
+                           ODT.ID,
+                           ODT.GROUP_ID,
+                           C.ORG_ID AS CURR_ORGID,
+                           CASE WHEN B.CHANNELNM = 'C1' AND  (INSTR(D.ORG_NM, '-') = 0 OR INSTR(D.ORG_NM, '事业部') > 0) THEN  C.ORG_ID
+                                WHEN B.CHANNELNM IN ('C2', 'C3') AND INSTR(D.ORG_NM, '-') = 0 THEN  C.ORG_ID
+                                WHEN B.CHANNELNM = 'C4' AND (INSTR(D.ORG_NM, '-')=0 OR  C.ORG_NM LIKE '%店') THEN  C.ORG_ID
+                                WHEN B.CHANNELNM = 'C5' AND  ((D.ORG_NM LIKE '%塘鹅租售' AND INSTR(D.ORG_NM, '-')=0)  OR C.ORG_NM LIKE '%店') THEN  C.ORG_ID
+                                ELSE  D.ORG_ID END ORG_ID,
+                           CASE WHEN B.CHANNELNM = 'C1' AND  (INSTR(D.ORG_NM, '-') = 0 OR INSTR(D.ORG_NM, '事业部') > 0) THEN  C.ORG_NM
+                                WHEN B.CHANNELNM IN ('C2', 'C3') AND INSTR(D.ORG_NM, '-') = 0 THEN  C.ORG_NM
+                                WHEN B.CHANNELNM = 'C4' AND (INSTR(D.ORG_NM, '-')=0 OR  C.ORG_NM LIKE '%店')  THEN  C.ORG_NM
+                                WHEN B.CHANNELNM = 'C5' AND  ((D.ORG_NM LIKE '%塘鹅租售' AND INSTR(D.ORG_NM, '-')=0)  OR C.ORG_NM LIKE '%店') THEN  C.ORG_NM
+                                ELSE  D.ORG_NM END ORG_NM
+                    FROM (
+                          SELECT CASE WHEN INSTR(DT.RESPON_USER,',')>0 THEN SUBSTR(DT.RESPON_USER,1,INSTR(DT.RESPON_USER,',')-1) ELSE DT.RESPON_USER END RESPON_USER,
+                              DT.RESPON_USER OR_RESPON_USER,
+                              DT.AMOUNT,
+                              DT.CHANAL,
+                              DT.AREA_NAME,
+                              DT.ID,
+                              DT.RE_MARK AS GROUP_ID
+                          FROM DW_CP_CLEAR_UP_DETAIL DT
+                          WHERE DT.RESPON_USER IS NOT NULL
+                              AND DT.GX_FLAG='2'
+                              AND DT.AREA_NAME IS NOT NULL
+                              AND DT.AREA_NAME != '集团'
+                              AND DT.RE_MARK IS NOT NULL
+                              AND DT.QUARTER = ( select distinct quarter
+                                                 from dw_cp_month_quarter
+                                                 where seq = (select seq - 1
+                                                              from dw_cp_month_quarter
+                                                              where data_date = to_char(sysdate, 'yyyy-mm')
+                                                             )
+                                               )
+                         ) ODT,
+                           ODS_HR_EMPLOYEE A,
+                           ODS_HR_EMPLOYEE_ORG B,
+                           ODS_HR_ORG C,
+                           ODS_HR_ORG D
+                    WHERE  ODT.RESPON_USER = A.OAACCOUNT
+                        AND A.EMPLOYEE = B.EMPLOYEEP
+                        AND B.ORGID = C.ORG_ID
+                        AND C.PARENTID = D.ORG_ID(+)
+                    )  AA
+              )  BB
+        <choose>
+            <when test='list != null and list.size() > 0'>
+                WHERE BB.AREA_NAME in
+                <foreach collection="list" index="index" item="item" open="(" separator="," close=")">
+                    #{item}
+                </foreach>
+            </when>
+            <otherwise>
+                WHERE 1=2
+            </otherwise>
+        </choose>
+        ORDER BY GROUP_ID, DEPT_NAME
+    </select>
+
+    <select id="searchUserByOaAccct" resultMap="orgDirct">
+SELECT    BB. EMPLOYEE,
+          BB.OAACCOUNT,
+          CASE WHEN BB.CHANNELNM IN ('C1','C3') THEN 'C1' ELSE BB.CHANNELNM END CHANNELNM,
+          BB.ORG_ID,
+          BB.ORG_NM,
+          BB.ORG_DIRCT,
+          BB.AMOUNT,
+          BB.AREA_NAME,
+          BB.ID,
+          BB.GROUP_ID,
+          CASE WHEN BB.CHANNELNM='C3' THEN 'C3 '|| BB.DEPT_NAME ELSE BB.DEPT_NAME END DEPT_NAME,
+          BB.REGION_NAME,
+          BB.REGION_ID,
+          CASE WHEN BB.CHANNELNM IN ('C1','C3') THEN BB.AREA_NAME ELSE BB.REGION_ID END ORDER_NAME
+FROM (
+          SELECT  AA. EMPLOYEE,
+                  AA.OAACCOUNT,
+                  AA.CHANNELNM,
+                  AA.ORG_ID,
+                  AA.ORG_NM,
+                  AA.ORG_DIRCT,
+                  AA.AMOUNT,
+                  AA.AREA_NAME,
+                  AA.ID,
+                  AA.GROUP_ID,
+                  CASE WHEN INSTR(AA.ORG_NM,'-')=0 THEN AA.ORG_NM
+                       WHEN INSTR(AA.ORG_NM,'-')>0 AND INSTR(AA.ORG_NM,'-',1,2)=0 THEN SUBSTR(AA.ORG_NM,INSTR(AA.ORG_NM,'-')+1)
+                       ELSE SUBSTR(AA.ORG_NM,INSTR(AA.ORG_NM,'-')+1,INSTR(AA.ORG_NM,'-',1,2)-INSTR(AA.ORG_NM,'-')-1) END  DEPT_NAME,
+			     ( SELECT  INNONE.ORG_NM
+			       FROM ODS_HR_ORG INNONE
+			       WHERE INNONE.DEPTY_ID='05' and INNONE.DEPCL_ID='01'
+			             START WITH INNONE.ORG_ID = AA.CURR_ORGID
+				         CONNECT BY PRIOR INNONE.PARENTID = INNONE.ORG_ID
+			     ) AS REGION_NAME,
+				 ( SELECT  INNTWO.ORG_ID
+			       FROM ODS_HR_ORG INNTWO
+			       WHERE INNTWO.DEPTY_ID='05' and INNTWO.DEPCL_ID='01'
+			             START WITH INNTWO.ORG_ID = AA.CURR_ORGID
+				         CONNECT BY PRIOR INNTWO.PARENTID = INNTWO.ORG_ID
+			     ) AS REGION_ID
+           FROM (
+                    SELECT A.EMPLOYEE,
+                           A.OAACCOUNT,
+                           B.CHANNELNM,
+                           C.ORG_ID AS CURR_ORGID,
+                           ODT.AMOUNT,
+                           ODT.AREA_NAME,
+                           ODT.ID,
+                           ODT.GROUP_ID,
+                           CASE WHEN B.CHANNELNM = 'C1' AND  (INSTR(D.ORG_NM, '-') = 0 OR INSTR(D.ORG_NM, '事业部') > 0) THEN  C.ORG_ID
+                             WHEN B.CHANNELNM IN ('C2', 'C3') AND INSTR(D.ORG_NM, '-') = 0 THEN  C.ORG_ID
+                             WHEN B.CHANNELNM = 'C4' AND (INSTR(D.ORG_NM, '-')=0 OR  C.ORG_NM LIKE '%店') THEN  C.ORG_ID
+                             WHEN B.CHANNELNM = 'C5' AND  ((D.ORG_NM LIKE '%塘鹅租售' AND INSTR(D.ORG_NM, '-')=0)  OR C.ORG_NM LIKE '%店') THEN  C.ORG_ID
+                             ELSE  D.ORG_ID END ORG_ID,
+                           CASE WHEN B.CHANNELNM = 'C1' AND  (INSTR(D.ORG_NM, '-') = 0 OR INSTR(D.ORG_NM, '事业部') > 0) THEN  C.ORG_NM
+                             WHEN B.CHANNELNM IN ('C2', 'C3') AND INSTR(D.ORG_NM, '-') = 0 THEN  C.ORG_NM
+                             WHEN B.CHANNELNM = 'C4' AND (INSTR(D.ORG_NM, '-')=0 OR  C.ORG_NM LIKE '%店')  THEN  C.ORG_NM
+                             WHEN B.CHANNELNM = 'C5' AND  ((D.ORG_NM LIKE '%塘鹅租售' AND INSTR(D.ORG_NM, '-')=0)  OR C.ORG_NM LIKE '%店') THEN  C.ORG_NM
+                             ELSE  D.ORG_NM END ORG_NM,
+                           CASE WHEN B.CHANNELNM = 'C1' AND (INSTR(D.ORG_NM, '-') = 0 OR INSTR(D.ORG_NM, '事业部') > 0) THEN  C.ORG_DIRCT
+                             WHEN B.CHANNELNM IN ('C2', 'C3') AND INSTR(D.ORG_NM, '-') = 0 THEN  C.ORG_DIRCT
+                             WHEN B.CHANNELNM = 'C4' AND (INSTR(D.ORG_NM, '-')=0 OR  C.ORG_NM LIKE '%店') THEN  C.ORG_DIRCT
+                             WHEN B.CHANNELNM = 'C5' AND ((D.ORG_NM LIKE '%塘鹅租售' AND INSTR(D.ORG_NM, '-')=0)  OR C.ORG_NM LIKE '%店') THEN  C.ORG_DIRCT
+                             ELSE   D.ORG_DIRCT END ORG_DIRCT
+                      FROM (
+                             SELECT CASE WHEN INSTR(DT.RESPON_USER,',')>0 THEN SUBSTR(DT.RESPON_USER,1,INSTR(DT.RESPON_USER,',')-1) ELSE DT.RESPON_USER END RESPON_USER,
+                                            DT.RESPON_USER OR_RESPON_USER,
+                                            DT.AMOUNT,
+                                            DT.CHANAL,
+                                            DT.AREA_NAME,
+                                            DT.ID,
+                                            DT.RE_MARK AS GROUP_ID
+                              FROM DW_CP_CLEAR_UP_DETAIL DT
+                              WHERE DT.RESPON_USER IS NOT NULL
+                              AND DT.GX_FLAG='2'
+                              AND DT.AREA_NAME IS NOT NULL
+                              AND DT.AREA_NAME != '集团'
+                              AND DT.QUARTER = ( select distinct quarter
+                                                 from dw_cp_month_quarter
+                                                 where seq = (select seq - 1
+                                                              from dw_cp_month_quarter
+                                                              where data_date = to_char(sysdate, 'yyyy-mm')
+                                                              )
+                                                )
+
+                      ) ODT,
+                         ODS_HR_EMPLOYEE A,
+						 ODS_HR_EMPLOYEE_ORG B,
+                         ODS_HR_ORG C,
+						 ODS_HR_ORG D
+					WHERE  ODT.RESPON_USER = A.OAACCOUNT
+					     AND A.EMPLOYEE = B.EMPLOYEEP
+						 AND B.ORGID = C.ORG_ID
+						 AND C.PARENTID = D.ORG_ID(+)
+                )  AA
+     )  BB
+    ORDER BY CHANNELNM, ORDER_NAME, DEPT_NAME
+    </select>
+</mapper>
